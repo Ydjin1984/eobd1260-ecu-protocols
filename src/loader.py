@@ -30,22 +30,28 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 
 def _find_db():
-    """Locate protocols-database.json in either layout:
+    """Locate protocols-database.json across the three layouts this code ships in:
 
-    repo layout     src/loader.py        -> ../spec/protocols-database.json
-    project layout  .../10-replica/src/  -> ../../05-spec/protocols-database.json
+    public repo   src/loader.py          -> ../spec/protocols-database.json
+    archive repo  replica/src/loader.py  -> ../../analysis/05-spec/protocols-database.json
+    project       .../10-replica/src/    -> ../../05-spec/protocols-database.json
     """
-    env = os.environ.get("EOBD_DB")
-    candidates = [env] if env else []
-    candidates += [
-        os.path.join(HERE, "..", "spec", "protocols-database.json"),
-        os.path.join(HERE, "..", "..", "05-spec", "protocols-database.json"),
-        os.path.join(HERE, "..", "protocols-database.json"),
+    rels = [
+        os.path.join("..", "spec", "protocols-database.json"),
+        os.path.join("..", "..", "analysis", "05-spec", "protocols-database.json"),
+        os.path.join("..", "..", "05-spec", "protocols-database.json"),
+        os.path.join("..", "analysis", "05-spec", "protocols-database.json"),
+        os.path.join("..", "protocols-database.json"),
     ]
+    candidates = []
+    env = os.environ.get("EOBD_DB")
+    if env:
+        candidates.append(env)
+    candidates += [os.path.normpath(os.path.join(HERE, r)) for r in rels]
     for c in candidates:
-        if c and os.path.isfile(c):
-            return os.path.normpath(c)
-    return os.path.normpath(candidates[-1])
+        if os.path.isfile(c):
+            return c
+    return candidates[-1]
 
 
 DB_PATH = _find_db()
