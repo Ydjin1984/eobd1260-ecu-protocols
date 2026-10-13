@@ -1,0 +1,6080 @@
+[
+ {
+  "name": "CBOOT_SIEMENS400_800",
+  "ids": [
+   179
+  ],
+  "notes": [
+   "BOOT SIEMENS 29F400/800BB",
+   "PIN 24 FLASH TO MASS"
+  ],
+  "vehicles": [
+   "MS42,MS43,MSS44,",
+   "SIM4LE,SIM4LKE"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CSIEMENS_BOOTMODE_200_400",
+  "ids": [
+   94
+  ],
+  "notes": [
+   "BOOT SIEMENS 29F200/400BB CRIPT",
+   "PIN 28 FLASH TO MASS"
+  ],
+  "vehicles": [
+   "SIRIUS 32,SIRIUS34",
+   "SID801,SID802,SID804,SID805 SID806"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIEDC15Pizda",
+  "ids": [
+   54
+  ],
+  "notes": [],
+  "vehicles": [
+   "A2 1.4 TDI  80CV",
+   "A3 1.9 TDI 101CV",
+   "A3 1.9 TDI 130CV",
+   "A4 1.9 TDI 101CV",
+   "A4 1.9 TDI 115CV",
+   "A4 1.9 TDI 130CV",
+   "A6 1.9 TDI 101CV",
+   "A6 1.9 TDI 130CV",
+   "Bora     1.9 PD",
+   "Golf 4   1.9 PD",
+   "Lupo     1.2 / 1.4 PD",
+   "New Beeatle 1.9 PD",
+   "Passat   1.9 PD",
+   "Polo     1.4/1.9 PD",
+   "Sharan   1.9 PD",
+   "Skoda Fabia   1.9 PD",
+   "Skoda Octavia 1.9 PD"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIME7.5.5",
+  "ids": [
+   66
+  ],
+  "notes": [],
+  "vehicles": [
+   "A3 1.8 TURBO      20V 150CV",
+   "A3 1.8 TURBO      20V 180CV",
+   "A3 S3 1.8 TURBO   20V 225CV",
+   "A4 1.8 TURBO      20V 150CV",
+   "A4 1.8 TURBO      20V 180CV",
+   "A6 1.8 TURBO      20V 150CV",
+   "A6 1.8 TURBO      20V 180CV",
+   "TT 1.8 TURBO      20V 150CV",
+   "TT 1.8 TURBO      20V 180CV",
+   "TT 4X4 1.8 TURBO  20V 225CV",
+   "Bora  1.8 Turbo",
+   "GOLF4 1.8 TURBO   20V 150CV",
+   "GOLF4 1.8 TURBO   20V 180CV",
+   "New Beeatle 1.8 Turbo",
+   "PASSAT 1.8 TURBO  20V 150CV",
+   "PASSAT 1.8 TURBO  20V 180CV",
+   "Sharan 1.8 Turbo",
+   "Skoda Octavia 1.8 Turbo",
+   "Skoda Superb  1.8 Turbo"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIME7.1.5 V6",
+  "ids": [
+   128
+  ],
+  "notes": [],
+  "vehicles": [
+   "A4 RS4 BITTURBO   375CV",
+   "A4 S4 2.7 BITURBO   270CV",
+   "A6 S6 2.7 BITURBO   270CV",
+   "A6 ALL ROAD 2.7 BITURBO   270CV",
+   "PASSAT 2.7 BITURBO   270CV"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIME7.5.1",
+  "ids": [
+   88
+  ],
+  "notes": [],
+  "vehicles": [
+   "A3 1.8 TURBO          20V 150CV",
+   "A3 1.8 TURBO          20V 180CV",
+   "A3 S3 1.8 TURBO       20V 225CV",
+   "A4 1.8 TURBO          20V 150CV",
+   "A4 1.8 TURBO          20V 180CV",
+   "A6 1.8 TURBO          20V 150CV",
+   "A6 1.8 TURBO",
+   "TT 1.8 TURBO          20V 150CV",
+   "TT 1.8 TURBO          20V 180CV",
+   "TT 4X4 1.8 TURBO      20V 225CV",
+   "GOLF4 1.8 TURBO       20V 150CV",
+   "GOLF4 1.8 TURBO       20V 180CV",
+   "PASSAT 1.8 TURBO      20V 150CV",
+   "PASSAT 1.8 TURBO      20V 180CV"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIME755BOOTMODE",
+  "ids": [
+   85
+  ],
+  "notes": [],
+  "vehicles": [
+   "A3 1.8 TURBO          20V 150CV",
+   "A3 1.8 TURBO          20V 180CV",
+   "A3 S3 1.8 TURBO       20V 225CV",
+   "A4 1.8 TURBO          20V 150CV",
+   "A4 1.8 TURBO          20V 180CV",
+   "A6 1.8 TURBO          20V 150CV",
+   "A6 1.8 TURBO          20V 180CV",
+   "TT 1.8 TURBO          20V 150CV",
+   "TT 1.8 TURBO          20V 180CV",
+   "TT 4X4 1800 TURBO     20V 225CV",
+   "GOLF4 1.8 TURBO       20V 150CV",
+   "GOLF4 1.8 TURBO       20V 180CV"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIME755, ME71.1, ME715BOOTMODE",
+  "ids": [
+   86,
+   90
+  ],
+  "notes": [],
+  "vehicles": [
+   "A3 1.8 TURBO          20V 150CV",
+   "A3 1.8 TURBO          20V 180CV",
+   "A3 S3 1.8 TURBO       20V 225CV",
+   "A4 1.8 TURBO          20V 150CV",
+   "A4 1.8 TURBO          20V 180CV",
+   "A6 1.8 TURBO          20V 150CV",
+   "A6 1.8 TURBO          20V 180CV",
+   "TT 1.8 TURBO          20V 150CV",
+   "TT 1.8 TURBO          20V 180CV",
+   "TT 4X4 1800 TURBO     20V 225CV",
+   "GOLF4 1.8 TURBO       20V 150CV",
+   "GOLF4 1.8 TURBO       20V 180CV",
+   "PASSAT 1.8 TURBO      20V 150CV",
+   "PASSAT 1.8 TURBO      20V 180CV",
+   "A4 RS4 BITTURBO   375CV",
+   "A4 S4 2.7 BITURBO   270CV",
+   "A6 S6 2.7 BITURBO   270CV",
+   "A6 ALL ROAD 2.7 BITURBO   270CV",
+   "PASSAT 2.7 BITURBO   270CV"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIME755_400_800",
+  "ids": [
+   91
+  ],
+  "notes": [],
+  "vehicles": [
+   "A3 1.8 TURBO          20V 150CV",
+   "A3 1.8 TURBO          20V 180CV",
+   "A3 S3 1.8 TURBO       20V 225CV",
+   "A4 1.8 TURBO          20V 150CV",
+   "A4 1.8 TURBO          20V 180CV",
+   "A6 1.8 TURBO          20V 150CV",
+   "A6 1.8 TURBO          20V 180CV",
+   "TT 1.8 TURBO          20V 150CV",
+   "TT 1.8 TURBO          20V 180CV",
+   "TT 4X4 1800 TURBO     20V 225CV",
+   "Bora  1.8 Turbo",
+   "GOLF4 1.8 TURBO   20V 150CV",
+   "GOLF4 1.8 TURBO   20V 180CV",
+   "New Beeatle 1.8 Turbo",
+   "PASSAT 1.8 TURBO  20V 150CV",
+   "PASSAT 1.8 TURBO  20V 180CV",
+   "Sharan 1.8 Turbo",
+   "Skoda Octavia 1.8 Turbo",
+   "Skoda Superb  1.8 Turbo"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIEDC15VP40_29F400",
+  "ids": [
+   68
+  ],
+  "notes": [],
+  "vehicles": [
+   "A4 2.5 TDI V6 BOSCH 150 / 180CV E3",
+   "A6 2.5 TDI V6 BOSCH 150 / 180CV E3",
+   "A8 2.5 TDI V6 BOSCH 150 / 180CV E3",
+   "Passat 2.5 V6  155CV"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIEDC15VP40_29F800",
+  "ids": [
+   89
+  ],
+  "notes": [],
+  "vehicles": [
+   "A4 2.5 TDI V6 BOSCH 163 / 180CV E4",
+   "A6 2.5 TDI V6 BOSCH 163 / 180CV E4",
+   "A8 2.5 TDI V6 BOSCH 163 / 180CV E4",
+   "Passat 2.5 V6  155CV"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "VWEDC15V",
+  "ids": [
+   55
+  ],
+  "notes": [],
+  "vehicles": [
+   "A3 1.9 TDI 90CV",
+   "A3 1.9 TDI 110CV",
+   "A4 1.9 TDI 90CV",
+   "A4 1.9 TDI 110CV",
+   "A6 1.9 TDI 110CV",
+   "Bora     1.9 TDI",
+   "Golf 4   1.9 TDI",
+   "New Beeatle 1.9 TDI",
+   "Passat   1.9 TDI",
+   "Sharan   1.9 TDI",
+   "Skoda Fabia   1.9 TDI",
+   "Skoda Octavia 1.9 TDI",
+   "Skoda Superb  2.5 TDI  V6",
+   "Alhambra 1.9 TDI VP37 Bosch EDC15V",
+   "Alhambra 1.9 TDI VP37 Bosch EDC15VM",
+   "Alhambra 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15V",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15VM",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15V",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15VM",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Leon 1.9 TDI VP37 Bosch EDC15V",
+   "Leon 1.9 TDI VP37 Bosch EDC15VM",
+   "Leon 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Toledo 1.9 TDI VP37 Bosch EDC15V",
+   "Toledo 1.9 TDI VP37 Bosch EDC15VM",
+   "Toledo 1.9 TDI VP37 Bosch EDC15VM-1M"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "VWEDC15Va",
+  "ids": [
+   180
+  ],
+  "notes": [
+   "BASSA VELOCITA / SLOW SPEED '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A3 1.9 TDI 90CV",
+   "A3 1.9 TDI 110CV",
+   "A4 1.9 TDI 90CV",
+   "A4 1.9 TDI 110CV",
+   "A6 1.9 TDI 110CV",
+   "Bora     1.9 TDI",
+   "Golf 4   1.9 TDI",
+   "New Beeatle 1.9 TDI",
+   "Passat   1.9 TDI",
+   "Sharan   1.9 TDI",
+   "Skoda Fabia   1.9 TDI",
+   "Skoda Octavia 1.9 TDI",
+   "Skoda Superb  2.5 TDI  V6",
+   "Alhambra 1.9 TDI VP37 Bosch EDC15V",
+   "Alhambra 1.9 TDI VP37 Bosch EDC15VM",
+   "Alhambra 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15V",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15VM",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15V",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15VM",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Leon 1.9 TDI VP37 Bosch EDC15V",
+   "Leon 1.9 TDI VP37 Bosch EDC15VM",
+   "Leon 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Toledo 1.9 TDI VP37 Bosch EDC15V",
+   "Toledo 1.9 TDI VP37 Bosch EDC15VM",
+   "Toledo 1.9 TDI VP37 Bosch EDC15VM-1M"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "VWEDC15Pa",
+  "ids": [
+   63
+  ],
+  "notes": [
+   "BASSA VELOCITA / SLOW SPEED '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A2   1.4 TDI 75CV",
+   "POLO 1.4 TDI 75CV"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIVWEDC16U1",
+  "ids": [
+   102
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A3     2.0 TDI 140 CV",
+   "A4     2.0 TDI 140 CV",
+   "A6     2.0 TDI  PD",
+   "CADDY  1.9 TDI 105 CV",
+   "CADDY  2.0 TDI",
+   "GOLF 5 2.0 TDI 140 CV",
+   "GOLF 5 1.9 TDI 105 CV",
+   "NEW PASSAT 1.9 TDI 105 CV",
+   "TOURAN 1.9 TDI 105 CV",
+   "TUAREG 2.5 TDI 185 CV",
+   "OCTAVIA 1.9/2.0  TDI PD"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIVWEDC16U31_4C",
+  "ids": [
+   133
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A3     2.0 TDI 140 CV",
+   "A4     2.0 TDI 140 CV",
+   "GOLF 5 1.9 TDI 105 CV",
+   "GOLF 5 2.0 TDI 140 CV",
+   "NEW PASSAT 1.9 TDI 105 CV",
+   "TUAREG 2.5 TDI 185 CV"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIVWEDC16U34_4C",
+  "ids": [
+   172
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A3     2.0 TDI 140 CV",
+   "A4     2.0 TDI 140 CV",
+   "GOLF 5 1.9 TDI 105 CV",
+   "GOLF 5 2.0 TDI 140 CV",
+   "NEW PASSAT 1.9 TDI 105 CV",
+   "TUAREG 2.5 TDI 185 CV"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIVWEDC16 CP34 V6 30",
+  "ids": [
+   125
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A4 3.0 V6 TDI 215 CV E4",
+   "A6 3.0 V6 TDI 215 CV E4",
+   "A8 3.0 V6 TDI 215 CV E4",
+   "TUAREG 3.0 V6 TDI 215 CV E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIVWEDC16 CP34 V10",
+  "ids": [
+   147
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A8 5.0 V10 TDI E4",
+   "TUAREG 5.0 V10 TDIE4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIVWEDC16 C4 V8 40",
+  "ids": [
+   165
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A8 4.0 V8 TDI E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CAUDIVW_MED9510",
+  "ids": [
+   176
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A2 1.6 16v FSI E4",
+   "A3 1.6 16v FSI E4",
+   "GOLF5 1.6 16v FSI E4",
+   "GOLF5 2.0 16v FSI E4",
+   "TOURAN 1.6 16v FSI E4",
+   "TOURAN 2.0 16v FSI E4",
+   "ALTEA 2.0 16v FSI E4",
+   "TOLEDO 2.0 16v FSI E4",
+   "LEON 2.0 16v FSI E4",
+   "JETTA 1.6 16v FSI E4",
+   "JETTA 2.0 16v FSI E4",
+   "PASSAT 1.6 16v FSI E4",
+   "PASSAT 2.0 16v FSI E4",
+   "OCTAVIA 1.6 16v FSI E4",
+   "OCTAVIA 2.0 16v FSI E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMW330D",
+  "ids": [
+   0
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E46) 3.0 D Bosch DDE4.0",
+   "BMW Serie 5 (E39) 2.5 D Bosch DDE4.0",
+   "BMW Serie 5 (E39) 3.0 D Bosch DDE4.0",
+   "BMW Serie 7 (E38) 3.0 D Bosch DDE4.0",
+   "BMW Serie X5 (E53) 3.0 D Bosch DDE4.0",
+   "Mini D 1400 70CV Bosch EDC15C2 DDE",
+   "Rover 25 75 2.0 CDT Bosch DDE4.0",
+   "Rover 75 Tourer 2.0 CDT Bosch DDE4.0",
+   "Freelender 2.0 CDT Bosch DDE4.0"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMW320D",
+  "ids": [
+   9
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E46) 2.0 D Bosch EDC15",
+   "BMW Serie 5 (E39) 2.0 D Bosch EDC15"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMW318M52",
+  "ids": [
+   8
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E36) 1.8 i Bosch ME5.2.1b",
+   "BMW Z3 Roadster 1.9 Bosch ME5.2.1b"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMW318BMS46",
+  "ids": [
+   17
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E46) 1.9 Bosch BMS46",
+   "BMW Z3 Roadster 1.9 Bosch Bosch BMS46"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMW318M52",
+  "ids": [
+   126
+  ],
+  "notes": [],
+  "vehicles": [
+   "540 / 740 / X5 4.0 Bosch ME5.2.1b"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWMSS52M3E46",
+  "ids": [
+   1
+  ],
+  "notes": [],
+  "vehicles": [
+   "M3 3.2 E46 SIEMENS MSS52/53",
+   "M5 5.0 V8  SIEMENS MSS54",
+   "Z8 5.0 V8  SIEMENS MSS54"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWMSS50M3E36",
+  "ids": [
+   2
+  ],
+  "notes": [],
+  "vehicles": [
+   "M3 3.2 E36 SIEMENS MSS50",
+   "Z3 M 3.2 SIEMENS MSS50"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWMINI90_110_S",
+  "ids": [
+   3
+  ],
+  "notes": [],
+  "vehicles": [
+   "MINI 0NE EURO 3",
+   "MINI COUPER EURO 3",
+   "MINI COUPER S EURO 3"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWMINI_VDO_SIEMENS",
+  "ids": [
+   113
+  ],
+  "notes": [],
+  "vehicles": [
+   "MINI 0NE EURO 4",
+   "MINI COUPER  EURO 4",
+   "MINI COUPER S YORK 170CV EURO 4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWMS41",
+  "ids": [
+   5
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E36) 2.0 i Siemens MS41",
+   "BMW Serie 3 (E36) 2.5 i Siemens MS41",
+   "BMW Serie 3 (E36) 2.8 i Siemens MS41",
+   "BMW Serie 5 (E39) 2.0 i Siemens MS41",
+   "BMW Serie 5 (E39) 2.5 i Siemens MS41",
+   "BMW Serie 7 (E38) 2.8 i Siemens MS41",
+   "BMW Z3 Roadster 2.0 Siemens MS41",
+   "BMW Z3 Roadster 2.8 Siemens MS41"
+  ],
+  "src": "auto.dll",
+  "chk_present": true
+ },
+ {
+  "name": "BMWMS42",
+  "ids": [
+   6
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E36) 2.0i Siemens Ms42",
+   "BMW Serie 3 (E36) 2.3i Siemens Ms42",
+   "BMW Serie 3 (E36) 2.5i Siemens Ms42",
+   "BMW Serie 3 (E36) 2.8i Siemens Ms42",
+   "BMW Serie 3 (E36) 3.0i Siemens Ms42",
+   "BMW Serie 3 (E36) 3.2i Siemens Ms42",
+   "BMW Serie 5 (E39) 2.0i Siemens Ms42",
+   "BMW Serie 5 (E39) 2.5i Siemens Ms42",
+   "BMW Serie 5 (E39) 2.3i Siemens Ms42",
+   "BMW Serie 5 (E39) 2.8i Siemens Ms42",
+   "BMW Serie 5 (E39) 3.0i Siemens Ms42",
+   "BMW Serie 5 (E39) 3.2i Siemens Ms42"
+  ],
+  "src": "auto.dll",
+  "chk_present": true
+ },
+ {
+  "name": "BMWMS43",
+  "ids": [
+   7
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E46) 2.0i Siemens Ms43",
+   "BMW Serie 3 (E46) 2.3i Siemens Ms43",
+   "BMW Serie 3 (E46) 2.5i Siemens Ms43",
+   "BMW Serie 3 (E46) 2.8i Siemens Ms43",
+   "BMW Serie 3 (E46) 3.0i Siemens Ms43",
+   "BMW Serie 3 (E46) 3.2i Siemens Ms43",
+   "BMW Serie 5 (E39) 2.0i Siemens Ms43",
+   "BMW Serie 5 (E39) 2.3i Siemens Ms43",
+   "BMW Serie 5 (E39) 2.5i Siemens Ms43",
+   "BMW Serie 5 (E39) 2.8i Siemens Ms43",
+   "BMW Serie 5 (E39) 3.0i Siemens Ms43",
+   "BMW Serie 5 (E39) 3.2i Siemens Ms43"
+  ],
+  "src": "auto.dll",
+  "chk_present": true
+ },
+ {
+  "name": "BMW320EDC16",
+  "ids": [
+   23
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E46) 150CV  Bosch EDC16"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWMSS53E46CSL",
+  "ids": [
+   44
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW M3 CSL (E46) 370CV SIEMENS MSS54"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWMINID",
+  "ids": [
+   45
+  ],
+  "notes": [],
+  "vehicles": [
+   "Mini D 1400 70CV Bosch EDC15C2 DDE"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMW318ME9",
+  "ids": [
+   48
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E46) VALVETRONIC 150CV"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMW330D_INTERA",
+  "ids": [
+   49
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E46) 3.0 D  A TAVOLINO",
+   "BMW Serie 5 (E39) 2.5 D  A TAVOLINO",
+   "BMW Serie 5 (E39) 3.0 D  A TAVOLINO",
+   "BMW Serie 7 (E38) 3.0 D  A TAVOLINO",
+   "BMW Serie X5 (E53) 3.0 D  A TAVOLINO"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWMODULOTV",
+  "ids": [
+   76
+  ],
+  "notes": [],
+  "vehicles": [
+   "ATTIVAZIONE MODULO TV",
+   "BMW Serie 3 (E46)",
+   "BMW Serie 5 (E39)",
+   "BMW Serie 5 (E39)",
+   "BMW Serie 7 (E38)",
+   "BMW Serie X5 (E53)"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWME71",
+  "ids": [
+   79
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 5 (E39) 4.4 D Bosch ME7.1",
+   "BMW Serie 7 (E38) 4.4 D Bosch ME7.1",
+   "BMW Serie X5 (E53) 4.4 D Bosch ME7.1"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CHEVROLET_SIRIUS_5WY",
+  "ids": [
+   169
+  ],
+  "notes": [],
+  "vehicles": [
+   "Kalos 12 SIEMENS 5WY",
+   "Rubeo 12 SIEMENS 5WY"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CHRYSLEREDC15C2",
+  "ids": [
+   65
+  ],
+  "notes": [],
+  "vehicles": [
+   "Chrysler Grand Cherokee 2.7 CRD",
+   "Chrysler Jeep Cherokee 2.5 CRD",
+   "Chrysler Jeep Cherokee 2.8 CRD",
+   "Chrysler PT Cruiser 2.2 CRD",
+   "Chrysler Voyager 2.5 CRD"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CHRYSLEREDC16 Cp31",
+  "ids": [
+   168
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Chrysler 300 C 3.0 CRD V6",
+   "JEEP Grand Cherokee 3.0 CRD V6",
+   "JEEP commander 3.0 CRD V6"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CCITROEN_DELPHI_16",
+  "ids": [
+   95
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "C2 HDI DELPHI 1.6 8V E4",
+   "C3 HDI DELPHI 1.6 8V E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CCITROENME744",
+  "ids": [
+   84
+  ],
+  "notes": [],
+  "vehicles": [
+   "C2 1.6 16V E3",
+   "C3 1.6 16V E3",
+   "C4 1.6 16V E3",
+   "SAXO 1.6 16V E3"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CCITROENME745",
+  "ids": [
+   109
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "C2 1.6 16V E4",
+   "C3 1.6 16V E4",
+   "C4 1.6 16V E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CCITROEN_SAGEM2000_14",
+  "ids": [
+   101
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "C1 1.2 1.4 8V E3",
+   "C2 1.2 1.4 8V E3",
+   "C3 1.2 1.4 8V E3"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CCITROEN_IAW48P2",
+  "ids": [
+   158
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "C1 1.1 / 1.4 8V E4",
+   "C2 1.1 / 1.4 8V E4",
+   "C3 1.1 / 1.4 8V E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FERRARIM52",
+  "ids": [
+   34
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Ferrari 355 E 456 M5.2 CC460"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FERRARI360ME7",
+  "ids": [
+   41
+  ],
+  "notes": [],
+  "vehicles": [
+   "Ferrari Modena 3.6 Bosch ME7.3H4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FERRARI 430 ME7.3.2",
+  "ids": [
+   150
+  ],
+  "notes": [],
+  "vehicles": [
+   "Ferrari 430  4.3 V8"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "Fiat/Alfa: m155",
+  "ids": [
+   4
+  ],
+  "notes": [],
+  "vehicles": [
+   "Alfa 145 1.4 Bosch M1.5.5",
+   "Alfa 145 1.6 Bosch M1.5.5",
+   "Alfa 146 1.4 Bosch M1.5.5",
+   "Alfa 146 1.6 Bosch M1.5.5",
+   "Alfa 146 1.8 Bosch M1.5.5",
+   "Alfa 146 2.0 Bosch M1.5.5",
+   "Alfa 156 1.6 Bosch M1.5.5",
+   "Alfa 156 1.8 Bosch M1.5.5",
+   "Alfa 156 2.0 Bosch M1.5.5",
+   "Alfa 166 2.0 Bosch M1.5.5",
+   "Alfa 166 2.0 Bosch M1.5.5",
+   "Alfa GTV 1.8 TS 16V Bosch M1.5.5",
+   "Alfa GTV 2.0 TS 16V Bosch M1.5.5",
+   "Alfa GTV 3.0 TS 16V Bosch M1.5.5",
+   "Alfa Spider 1.8 TS Bosch M1.5.5",
+   "Alfa Spider 2.0 TS 16V Bosch M1.5.5",
+   "Alfa Spider 3.0 TS 16V Bosch M1.5.5",
+   "Fiat Bravo/Brava 1.2 Bosch M1.5.5"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "Fiat/Alfa/Lancia euro2",
+  "ids": [
+   13
+  ],
+  "notes": [],
+  "vehicles": [
+   "Alfa 145 1.9 JTD Bosch EDC15C5",
+   "Alfa 146 1.9 JTD Bosch EDC15C5",
+   "Alfa 156 1.9 JTD Bosch EDC15C5",
+   "Alfa 156 2.4 JTD Bosch EDC15C5",
+   "Alfa 166 2.4 JTD Bosch EDC15C5",
+   "Fiat Bravo/Brava 1.9 JTD Bosch EDC15C5",
+   "Fiat Multipla 1.9 JTD Bosch EDC15C5",
+   "Fiat Marea 1.9 JTD Bosch EDC15C5",
+   "Fiat Marea 2.4 JTD Bosch EDC15C5",
+   "Lancia K 2.4 JTD Bosch EDC15C5",
+   "Lancia Lybra 1.9 JTD Bosch EDC15C5",
+   "Lancia Lybra 2.4 JTD Bosch EDC15C5",
+   "Lancia Z 2.0 JTD Bosch EDC15C5"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATME73H4KWP2000",
+  "ids": [
+   16
+  ],
+  "notes": [],
+  "vehicles": [
+   "Fiat Punto 1.2 Bosch ME7.2.1 E3 prog. lenta",
+   "Lancia Y 1.2 Bosch ME7.2.1 E3 prog. lenta"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "Fiat/Alfa/Lancia: euro3",
+  "ids": [
+   22
+  ],
+  "notes": [],
+  "vehicles": [
+   "Alfa 147 1.9 JTD 16V Bosch EDC15C7",
+   "Alfa 147 1.9 JTD 8V Bosch EDC15C7",
+   "Alfa 156 1.9 JTD Bosch EDC15C7",
+   "Alfa 156 2.4 JTD Bosch EDC15C7",
+   "Alfa 166 2.4 JTD Bosch EDC15C7",
+   "Fiat Bravo/Brava 1.9 JTD Bosch EDC15C7",
+   "Fiat Doblo 1.9 JTD Bosch EDC15C7",
+   "Fiat Ducato 2.0 JTD Bosch EDC15C7",
+   "Fiat Ducato 2.3 JTD Bosch EDC15C7",
+   "Fiat Ducato 2.8 JTD Bosch EDC15C7",
+   "Fiat Marea 1.9 JTD Bosch EDC15C7",
+   "Fiat Marea 2.4 JTD Bosch EDC15C7",
+   "Fiat Multipla 1.9 JTD Bosch EDC15C7",
+   "Fiat Palio 1.9 JTD Bosch EDC15C7",
+   "Fiat Scudo 2.0 JTD Bosch EDC15C7",
+   "Fiat Stilo 1.9 JTD Bosch EDC15C7",
+   "Lancia Lybra 1.9 JTD Bosch EDC15C7",
+   "Lancia Lybra 2.4 JTD Bosch EDC15C7",
+   "Lancia Thesis 2.4 JTD Bosch EDC15C7"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATPUNTOEDC15C6",
+  "ids": [
+   25
+  ],
+  "notes": [],
+  "vehicles": [
+   "Fiat Punto 1.9 JTD Bosch EDC15C6",
+   "Fiat Punto 1.9 JTD Bosch EDC15C7"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "IAW MJD 6J MULTIGET",
+  "ids": [
+   83
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Fiat Punto      1.3 IAW MULTIJET",
+   "Fiat Idea       1.3 IAW MULTIJET",
+   "Fiat Panda New  1.3 IAW MULTIJET"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATME7.2.1 EURO3",
+  "ids": [
+   37
+  ],
+  "notes": [],
+  "vehicles": [
+   "Fiat Punto 1.2 Bosch ME7.2.1 Euro3",
+   "Lancia Y 1.2 Bosch ME7.2.1 Euro3"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATME73H4EURO4",
+  "ids": [
+   38
+  ],
+  "notes": [],
+  "vehicles": [
+   "Fiat Punto 1.2 Bosch ME7.H3",
+   "Fiat Stilo 2.4 Bosch ME7.3.1",
+   "Lancia Y 1.2 Bosch ME7.H3"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "ALFAME21",
+  "ids": [
+   39
+  ],
+  "notes": [],
+  "vehicles": [
+   "Alfa 156 2.0 Bosch ME2.1",
+   "Alfa 166 2.5 V6 24V Bosch ME2.1",
+   "Alfa GTV 3.0 V6 24V Bosch ME2.1",
+   "Alfa Spider 3.0 V6 24V Bosch ME2.1",
+   "Fiat Bravo/Brava 2.0 Bosch ME2.1",
+   "Fiat Bravo/Brava 2.0 20V Bosch ME2.1",
+   "Fiat Coupe 2.0 20V Bosch ME2.1",
+   "Fiat Marea 2.4 MDI 20V Bosch ME2.1",
+   "Lancia Lybra 2.0 i 20V Bosch ME2.1"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "ALFAM21  28F200BXB",
+  "ids": [
+   53
+  ],
+  "notes": [],
+  "vehicles": [
+   "Alfa Romeo 156 2.5 Bosch M2.1",
+   "Alfa Romeo 166 2.0 V6 Turbo Bosch M2.1",
+   "Alfa Romeo 166 2.5 V6 24V Bosch M2.1",
+   "Alfa Romeo 166 3.0 V6 24V Bosch M2.1"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "ALFAME731HA",
+  "ids": [
+   40
+  ],
+  "notes": [],
+  "vehicles": [
+   "Alfa Romeo 147 1.6 Bosch ME7.3.1",
+   "Alfa Romeo 147 2.0 TS Bosch ME7.3.1",
+   "Alfa Romeo 156 1.6 Bosch ME7.3.1",
+   "Alfa Romeo 156 1.8 Bosch ME7.3.1",
+   "Alfa Romeo 156 2.0 Bosch ME7.3.1",
+   "Alfa Romeo 166 2.0 Bosch ME7.3.1",
+   "Alfa Romeo 166 2.5 Bosch ME7.3.1",
+   "Alfa Romeo 166 3.0 Bosch ME7.3.1",
+   "Alfa Romeo GTV 2.0 TS 16V Bosch ME7.3.1",
+   "Alfa Romeo GTV 3.0 TS 16V Bosch ME7.3.1",
+   "Alfa Romeo Spider 2.0 TS 16V Bosch ME7.3.1",
+   "Alfa Romeo Spider 3.0 TS 16V Bosch ME7.3.1",
+   "Lancia Lybra 2.0 Bosch ME7.3.1",
+   "Lancia Thesis 2.0 Turbo Bosch ME7.3.1",
+   "FIAT DOBLO 1.3 16V BOSCH IBRIDA ME7.3.1",
+   "FIAT PALIO 1.0 16V BOSCH IBRIDA ME7.3.1",
+   "FIAT PALIO 1.3 16V BOSCH IBRIDA ME7.3.1"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATIAW 4AF 59F",
+  "ids": [
+   103
+  ],
+  "notes": [],
+  "vehicles": [
+   "FIAT 500/600 1.0 1.1 E3 IAW 59F",
+   "FIAT PANDA 1.0 1.1 E3 IAW 59F",
+   "FIAT DOBLO 1.2 8v MPI E3 IAW 59F",
+   "FIAT PUNTO 1.2 8v MPI E3 IAW 59F"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATIAW 4AF 59F",
+  "ids": [
+   106
+  ],
+  "notes": [],
+  "vehicles": [
+   "FIAT 500/600 1.0 1.1 E3 IAW 59F",
+   "FIAT PANDA 1.0 1.1 E3 IAW 59F",
+   "FIAT DOBLO 1.2 8v MPI E3 IAW 59F",
+   "FIAT PUNTO 1.2 8v MPI E3 IAW 59F",
+   "DUCATI IAW 59F",
+   "0 DECODIFICA E CLONA TUTTE IAW 4AF/59F",
+   "0 DECODE END CLONE ALL IAW 4AF/ 59F",
+   "0 VEDI PDF IN CARTELLA DOCUMENTI",
+   "0 SEE PDF IN FOLDER DOCUMENTS"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATEDC16C8",
+  "ids": [
+   50
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Alfa 147 1.9 16v MJ Bosch EDC16 C8",
+   "Alfa 156 1.9 16v MJ Bosch EDC16 C8",
+   "Alfa 156 2.4 16v MJ Bosch EDC16 C8",
+   "Alfa 166 2.4 16v MJ Bosch EDC16 C8",
+   "STILO 1.9 16v MJ Bosch EDC16 C8"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATEDC16C9",
+  "ids": [
+   141
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Alfa 147 1.9 16v MJ Bosch EDC16 C9",
+   "Alfa 156 1.9 16v MJ Bosch EDC16 C9",
+   "Alfa 156 2.4 20v MJ Bosch EDC16 C9",
+   "Alfa 166 2.4 20v MJ Bosch EDC16 C9",
+   "STILO 1.9 16v MJ Bosch EDC16 C9",
+   "IDEA 1.9 16v MJ Bosch EDC16 C9"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATEDC16C39",
+  "ids": [
+   132
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Alfa 147 1.9 16v MJ Bosch EDC16 C39",
+   "Alfa 156 1.9 16v MJ Bosch EDC16 C39",
+   "Alfa 159 1.9 16v MJ Bosch EDC16 C39",
+   "Alfa 156 2.4 20v MJ Bosch EDC16 C39",
+   "Alfa 159 2.4 20v MJ Bosch EDC16 C39",
+   "Alfa 166 2.4 20v MJ Bosch EDC16 C39",
+   "STILO 1.9 16v MJ Bosch EDC16 C39",
+   "IDEA 1.9 16v MJ Bosch EDC16 C39",
+   "CROMA 1.9 16v MJ Bosch EDC16 C39",
+   "CROMA 2.4 20v MJ Bosch EDC16 C39"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "IAW 49F / 4EF",
+  "ids": [
+   18
+  ],
+  "notes": [],
+  "vehicles": [
+   "FIAT  BRAVO 1.6 16V IAW 49F",
+   "FIAT  BRAVO 1.6 16V IAW 4EF",
+   "FIAT  PUNTO 1.2 8V IAW 4EF"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "IAW 59F /  5NF  MOTOROLA",
+  "ids": [
+   120
+  ],
+  "notes": [],
+  "vehicles": [
+   "FIAT  STILO 1.6 16V IAW 5NF",
+   "FIAT  MULTIPLA 1.6 16V IAE 5NF",
+   "FIAT  NEW PANDA 1.2 16V IAW 5NF",
+   "FIAT  PUNTO 1.2 8V IAW 59F",
+   "FIAT  PANDA 1.2 8V IAW 5NF"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FORD_EDC16C34 1,6 16V",
+  "ids": [
+   136
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "C-MAX  1,6 16V HDI 90/120CV E3",
+   "FIESTA 1,4 16V HDI 80/E3",
+   "FIESTA 1,6 16V HDI 90/120CV E3",
+   "FOCUS  1,6 16V HDI 90/120CV E3"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FORD_EDC16C3 1,6 16V",
+  "ids": [
+   162
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "C-MAX  1,6 16V HDI 90/110CV E3",
+   "FIESTA 1,6 16V HDI 90/110CV E3",
+   "FOCUS  1,6 16V HDI 90/110CV E3"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "HONDAEDC15C7",
+  "ids": [
+   60
+  ],
+  "notes": [],
+  "vehicles": [
+   "Honda Civic 15 Dti"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "HONDA_EDC16C31",
+  "ids": [
+   156
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "ACCORD  2.2 I CTDI E4",
+   "CIVIC       2.2 I CTDI E4",
+   "CR V        2.2 I CTDI E4",
+   "FR V        2.2 I CTDI E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "HONDAME729F800",
+  "ids": [
+   144
+  ],
+  "notes": [],
+  "vehicles": [
+   "HONDA JETZ 1.4 16V ME7"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "HYUNDAIEDC15C2",
+  "ids": [
+   61
+  ],
+  "notes": [],
+  "vehicles": [
+   "Hyundai Accent 1.5 CRDI",
+   "Hyundai Elantra 2.0 CRDI",
+   "Hyundai Matrix 1.5 CRDI",
+   "Hyundai Santa Fe 2.0 CRDI",
+   "Hyundai Trajet 2.0 CRDI",
+   "HYUNDAI GETZ 2.0 CRDI",
+   "Hyundai Tucson 2.0 CRDI",
+   "Hyundai Starex 2.0 CRDI"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "IVECO_MS63_200",
+  "ids": [
+   143
+  ],
+  "notes": [],
+  "vehicles": [
+   "DAILY MS6.3  2,5 2,8"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "IVECO_EDC7",
+  "ids": [
+   51
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "TECTOR EDC7 4C 6C  24V",
+   "MC CORMIK TRACKTOR 12V"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "IVECO_EDC16 C8",
+  "ids": [
+   99
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "DAILY EDC16 C8  2,5 2,8"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "IVECO_EDC16 C39_5",
+  "ids": [
+   173
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "NEW DAILY EDC16 C39/5  2,5 2,8"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "KIAEDC15C2",
+  "ids": [
+   75
+  ],
+  "notes": [],
+  "vehicles": [
+   "Kia Carens 2.0 CRDi 16V",
+   "Kia Sorento 2.5 CRDi",
+   "Kia Cerato 2.0 CRDi",
+   "Kia Sportage 2.0 CRDi"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "KIA DELPHI DDCR E3",
+  "ids": [
+   119
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Kia carnival 2.9 CRDi 16V Delphi",
+   "Hyundai  Terracan 2.9 DDCR"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "KIAEDC16+c39",
+  "ids": [
+   145
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "KIA RIO CRDI EDC16+ C39",
+   "HYUNDAI GETZ 1.5 CRDI",
+   "Hyundai Tucson 2.0 CRDI"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MAN_EDC7",
+  "ids": [
+   139
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Man TGA 4/6 E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MAN_MS6.1",
+  "ids": [
+   151
+  ],
+  "notes": [],
+  "vehicles": [
+   "Man TGA 4/6 E2"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MAN_MS6.4",
+  "ids": [
+   157
+  ],
+  "notes": [],
+  "vehicles": [
+   "Man TGA 4/6 E3"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MASERATIMED71",
+  "ids": [
+   69
+  ],
+  "notes": [],
+  "vehicles": [
+   "COUPE V8 4200 MED71",
+   "COUPE CAMBIO CORSA V8 4200 MED71",
+   "SPIDER V8 4200 MED71",
+   "SPIDER CAMBIO CORSA V8 4200 MED71"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDESEDC15C5",
+  "ids": [
+   58
+  ],
+  "notes": [],
+  "vehicles": [
+   "Mercedes A-Klasse 1.7/1.6 CDI",
+   "Mercedes C-Klasse (W201) 2.0/2.2/3.0 CDI",
+   "Mercedes E-Klasse (W201) 2.0/2.2/3.2 CDI",
+   "Mercedes M-Klasse 3.2 CDI",
+   "Mercedes Sprinter 2.2 CDI",
+   "Mercedes V-Klasse 2.0/2.2 CDI",
+   "Mercedes Vito 2.2 CDI",
+   "Mercedes Vaneo 1.7 CDI"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDESEDC15C6",
+  "ids": [
+   59
+  ],
+  "notes": [],
+  "vehicles": [
+   "Mercedes A-Klasse 1.7 CDI",
+   "Mercedes C-Klasse (W201) 2.2 CDI",
+   "Mercedes C-Klasse (W201) 2.7 CDI",
+   "Mercedes C-Klasse (W203) 2.0 CDI",
+   "Mercedes C-Klasse (W203) 2.2 CDI",
+   "Mercedes C-Klasse (W203) 2.2 CDI",
+   "Mercedes C-Klasse (W203) 2.7 CDI",
+   "Mercedes C-Klasse (W203) 3.2 CDI",
+   "Mercedes CLK(W209) 2.7 CDI",
+   "Mercedes E-Klasse (W210) 2.0 CDI",
+   "Mercedes E-Klasse (W210) 2.2 CDI",
+   "Mercedes E-Klasse (W210) 2.7 CDI",
+   "Mercedes E-Klasse (W210) 3.2 CDI",
+   "Mercedes G-Klasse 2.7 CDI",
+   "Mercedes G-Klasse 4.0 CDI",
+   "Mercedes M-Klasse 2.7 CDI",
+   "Mercedes ML-Klasse 2.7 CDI",
+   "Mercedes ML-Klasse 4.0 CDI",
+   "Mercedes S-Klasse (W280) 3.2 CDI",
+   "Mercedes S-Klasse (W280) 4.0 CDI",
+   "Mercedes Sprinter 2.2 CDI",
+   "Mercedes Sprinter 2.7 CDI",
+   "Mercedes V-Klasse 2.0 CDI",
+   "Mercedes V-Klasse 2.2 CDI",
+   "Mercedes Vito 2.2 CDI"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDES ACTROS BOOT 200",
+  "ids": [
+   142
+  ],
+  "notes": [],
+  "vehicles": [
+   "TEMIC ACTROS  E 1/2/3",
+   "TEMIC ATEGO    E 1/2/3",
+   "TEMIC ECONIC   E 1/2/3",
+   "TEMIC UNIMOG  E 1/2/3"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDES ACTROS BOOT 400",
+  "ids": [
+   155
+  ],
+  "notes": [],
+  "vehicles": [
+   "TEMIC ACTROS  E 4/5",
+   "TEMIC ATEGO   E 4/5",
+   "TEMIC UNIMOG  E 4/5",
+   "TEMIC ECONIC  E 4/5"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDES EDC16+ C31 C32",
+  "ids": [
+   140
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A-Klasse 1.8 EDC16+ C32",
+   "A-Klasse 2.0 EDC16+ C32",
+   "B-Klasse 1.8 EDC16+ C32",
+   "B-Klasse 2.0 EDC16+ C32"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDES EDC16 C2_4 29BL802CB",
+  "ids": [
+   24
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Mercedes C-Klasse (W201) 2.2 CDI",
+   "Mercedes C-Klasse (W201) 2.7 CDI",
+   "Mercedes C-Klasse (W203) 2.0 CDI",
+   "Mercedes C-Klasse (W203) 2.2 CDI",
+   "Mercedes C-Klasse (W203) 2.2 CDI",
+   "Mercedes C-Klasse (W203) 2.7 CDI",
+   "Mercedes C-Klasse (W203) 3.2 CDI",
+   "Mercedes E-Klasse (W210) 2.0 CDI",
+   "Mercedes E-Klasse (W210) 2.2 CDI",
+   "Mercedes E-Klasse (W210) 2.7 CDI",
+   "Mercedes E-Klasse (W210) 3.2 CDI",
+   "Mercedes G-Klasse 2.7 CDI",
+   "Mercedes G-Klasse 4.0 CDI",
+   "Mercedes M-Klasse 2.7 CDI",
+   "Mercedes ML-Klasse 2.7 CDI",
+   "Mercedes ML-Klasse 4.0 CDI",
+   "Mercedes S-Klasse (W280) 3.2 CDI",
+   "Mercedes S-Klasse (W280) 4.0 CDI",
+   "Mercedes V-Klasse 2.0 CDI",
+   "Mercedes V-Klasse 2.2 CDI",
+   "Mercedes Vito 2.2 CDI"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDES EDC16 C2_7 29BL802CB",
+  "ids": [
+   121
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Mercedes A-Klasse 1.8 CDI",
+   "Mercedes A-Klasse 2.2 CDI",
+   "Mercedes C-Klasse (W201) 2.2 CDI",
+   "Mercedes C-Klasse (W201) 2.7 CDI",
+   "Mercedes C-Klasse (W203) 2.0 CDI",
+   "Mercedes C-Klasse (W203) 2.2 CDI",
+   "Mercedes C-Klasse (W203) 2.2 CDI",
+   "Mercedes C-Klasse (W203) 2.7 CDI",
+   "Mercedes C-Klasse (W203) 3.2 CDI",
+   "Mercedes CLK (W208) 3.2 CDI",
+   "Mercedes E-Klasse (W210) 2.0 CDI",
+   "Mercedes E-Klasse (W210) 2.2 CDI",
+   "Mercedes E-Klasse (W210) 2.7 CDI",
+   "Mercedes E-Klasse (W210) 3.2 CDI",
+   "Mercedes G-Klasse 2.7 CDI",
+   "Mercedes G-Klasse 4.0 CDI",
+   "Mercedes M-Klasse 2.7 CDI",
+   "Mercedes ML-Klasse 2.7 CDI",
+   "Mercedes ML-Klasse 4.0 CDI",
+   "Mercedes S-Klasse (W280) 3.2 CDI",
+   "Mercedes S-Klasse (W280) 4.0 CDI",
+   "Mercedes V-Klasse 2.0 CDI",
+   "Mercedes V-Klasse 2.2 CDI",
+   "Mercedes Vito 2.2 CDI",
+   "Mercedes Viano 2.2 CDI"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDES EDC16 C2_7 29BL802CB",
+  "ids": [
+   123
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Mercedes A-Klasse 1.8 CDI",
+   "Mercedes A-Klasse 2.2 CDI",
+   "Mercedes C-Klasse (W201) 2.2 CDI",
+   "Mercedes C-Klasse (W201) 2.7 CDI",
+   "Mercedes C-Klasse (W203) 2.0 CDI",
+   "Mercedes C-Klasse (W203) 2.2 CDI",
+   "Mercedes C-Klasse (W203) 2.2 CDI",
+   "Mercedes C-Klasse (W203) 2.7 CDI",
+   "Mercedes C-Klasse (W203) 3.2 CDI",
+   "Mercedes CLK (W208) 3.2 CDI",
+   "Mercedes E-Klasse (W210) 2.0 CDI",
+   "Mercedes E-Klasse (W210) 2.2 CDI",
+   "Mercedes E-Klasse (W210) 2.7 CDI",
+   "Mercedes E-Klasse (W210) 3.2 CDI",
+   "Mercedes G-Klasse 2.7 CDI",
+   "Mercedes G-Klasse 4.0 CDI",
+   "Mercedes M-Klasse 2.7 CDI",
+   "Mercedes ML-Klasse 2.7 CDI",
+   "Mercedes ML-Klasse 4.0 CDI",
+   "Mercedes S-Klasse (W280) 3.2 CDI",
+   "Mercedes S-Klasse (W280) 4.0 CDI",
+   "Mercedes V-Klasse 2.0 CDI",
+   "Mercedes V-Klasse 2.2 CDI",
+   "Mercedes Vito 2.2 CDI",
+   "Mercedes Viano 2.2 CDI"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDES EDC16CP31",
+  "ids": [
+   131
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Mercedes E-Klasse (W210) 2.8 CDI",
+   "Mercedes E-Klasse (W210) 3.0 CDI",
+   "Mercedes E-Klasse (W210) 3.2 CDI",
+   "Mercedes G-Klasse 2.8 CDI",
+   "Mercedes ML-Klasse 2.8 CDI",
+   "Mercedes ML-Klasse 3.2 CDI",
+   "Mercedes S-Klasse (W280) 3.0 V6 CDI",
+   "Mercedes S-Klasse (W280) 3.2 CDI"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDESME728",
+  "ids": [
+   70
+  ],
+  "notes": [],
+  "vehicles": [
+   "Mercedes Slk  2.4",
+   "Mercedes Slk  3.2",
+   "Mercedes Slk  5.5 E55 M113",
+   "Mercedes Clk-clk cabrio  2.4",
+   "Mercedes Clk-clk cabrio  3.2",
+   "Mercedes Clk-clk cabrio  5.0",
+   "Mercedes C-Klasse (W201) 1.8",
+   "Mercedes C-Klasse (W203) 2.0",
+   "Mercedes C-Klasse (W201) 2.4",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes C-Klasse (W203) 2.2",
+   "Mercedes C-Klasse (W203) 2.7",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes E-Klasse (W210) 2.4",
+   "Mercedes E-Klasse (W210) 3.2",
+   "Mercedes E-Klasse (W210) 4.3",
+   "Mercedes E-Klasse (W210) 5.0",
+   "Mercedes S-Klasse (W280) 3.2",
+   "Mercedes S-Klasse (W280) 4.3",
+   "Mercedes S-Klasse (W280) 5.0",
+   "Mercedes S-Klasse (W280) 5.5",
+   "Mercedes SL-Klasse (R320) 5.0",
+   "Mercedes SL-Klasse (R320) 5.5",
+   "Mercedes G-Klasse 2.7",
+   "Mercedes G-Klasse 4.0",
+   "Mercedes M-Klasse 2.7",
+   "Mercedes ML-Klasse 2.7",
+   "Mercedes ML-Klasse 4.0"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDESME728AMG",
+  "ids": [
+   77
+  ],
+  "notes": [],
+  "vehicles": [
+   "Mercedes Slk  2.4",
+   "Mercedes Slk  3.2",
+   "Mercedes Slk  5.5 E55 M113",
+   "Mercedes Clk-clk cabrio  2.4",
+   "Mercedes Clk-clk cabrio  3.2",
+   "Mercedes Clk-clk cabrio  5.0",
+   "Mercedes C-Klasse (W201) 1.8",
+   "Mercedes C-Klasse (W203) 2.0",
+   "Mercedes C-Klasse (W201) 2.4",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes C-Klasse (W203) 2.2",
+   "Mercedes C-Klasse (W203) 2.7",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes E-Klasse (W210) 2.4",
+   "Mercedes E-Klasse (W210) 3.2",
+   "Mercedes E-Klasse (W210) 4.3",
+   "Mercedes E-Klasse (W210) 5.0",
+   "Mercedes S-Klasse (W280) 3.2",
+   "Mercedes S-Klasse (W280) 4.3",
+   "Mercedes S-Klasse (W280) 5.0",
+   "Mercedes S-Klasse (W280) 5.5",
+   "Mercedes SL-Klasse (R320) 5.0",
+   "Mercedes SL-Klasse (R320) 5.5",
+   "Mercedes G-Klasse 2.7",
+   "Mercedes G-Klasse 4.0",
+   "Mercedes M-Klasse 2.7",
+   "Mercedes ML-Klasse 2.7",
+   "Mercedes ML-Klasse 4.0"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDESME21",
+  "ids": [
+   78
+  ],
+  "notes": [],
+  "vehicles": [
+   "Mercedes Slk  2.0  200K",
+   "Mercedes Slk  2.3  230K",
+   "Mercedes Slk  2.4",
+   "Mercedes Slk  3.2",
+   "Mercedes Clk (W208) 2.0 200K",
+   "Mercedes Clk (W208) 2.3 230K",
+   "Mercedes Clk-clk cabrio  2.4",
+   "Mercedes Clk-clk cabrio  2.4",
+   "Mercedes Clk-clk cabrio  3.2",
+   "Mercedes Clk-clk cabrio  5.0",
+   "Mercedes C-Klasse (W201) 1.8",
+   "Mercedes C-Klasse (W202) 2.0 200K",
+   "Mercedes C-Klasse (W202) 2.3 230K",
+   "Mercedes C-Klasse (W203) 2.0",
+   "Mercedes C-Klasse (W201) 2.4",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes C-Klasse (W203) 2.2",
+   "Mercedes C-Klasse (W203) 2.7",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes E-Klasse (W210) 2.4",
+   "Mercedes E-Klasse (W210) 3.2",
+   "Mercedes E-Klasse (W210) 4.3",
+   "Mercedes E-Klasse (W210) 5.0",
+   "Mercedes S-Klasse (W280) 3.2",
+   "Mercedes S-Klasse (W280) 4.3",
+   "Mercedes S-Klasse (W280) 5.0",
+   "Mercedes G-Klasse 2.7",
+   "Mercedes G-Klasse 4.0",
+   "Mercedes M-Klasse 2.7",
+   "Mercedes ML-Klasse 2.7",
+   "Mercedes ML-Klasse 4.0"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDES_SIEMENS_5WK9",
+  "ids": [
+   100
+  ],
+  "notes": [],
+  "vehicles": [
+   "Mercedes Slk  2.4",
+   "Mercedes Slk  3.2",
+   "Mercedes Slk  5.0",
+   "Mercedes Clk-clk cabrio  2.4",
+   "Mercedes Clk-clk cabrio  3.2",
+   "Mercedes Clk-clk cabrio  5.0",
+   "Mercedes C-Klasse (W201) 1.8",
+   "Mercedes C-Klasse (W203) 2.0",
+   "Mercedes C-Klasse (W201) 2.4",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes C-Klasse (W203) 2.2",
+   "Mercedes C-Klasse (W203) 2.7",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes E-Klasse (W210) 2.4",
+   "Mercedes E-Klasse (W210) 3.2",
+   "Mercedes E-Klasse (W210) 4.3",
+   "Mercedes E-Klasse (W210) 5.0",
+   "Mercedes S-Klasse (W280) 3.2",
+   "Mercedes S-Klasse (W280) 4.3",
+   "Mercedes S-Klasse (W280) 5.0",
+   "Mercedes G-Klasse 2.7",
+   "Mercedes G-Klasse 4.0",
+   "Mercedes M-Klasse 2.7",
+   "Mercedes ML-Klasse 2.7",
+   "Mercedes ML-Klasse 4.0"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CMERCEDES_SIEM4LKE_800",
+  "ids": [
+   178
+  ],
+  "notes": [],
+  "vehicles": [
+   "Mercedes Slk  2.4",
+   "Mercedes Slk  3.2",
+   "Mercedes Slk  5.0",
+   "Mercedes Clk-clk cabrio  2.4",
+   "Mercedes Clk-clk cabrio  3.2",
+   "Mercedes Clk-clk cabrio  5.0",
+   "Mercedes C-Klasse (W201) 1.8",
+   "Mercedes C-Klasse (W203) 2.0",
+   "Mercedes C-Klasse (W201) 2.4",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes C-Klasse (W203) 2.2",
+   "Mercedes C-Klasse (W203) 2.7",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes E-Klasse (W210) 2.4",
+   "Mercedes E-Klasse (W210) 3.2",
+   "Mercedes E-Klasse (W210) 4.3",
+   "Mercedes E-Klasse (W210) 5.0",
+   "Mercedes S-Klasse (W280) 3.2",
+   "Mercedes S-Klasse (W280) 4.3",
+   "Mercedes S-Klasse (W280) 5.0",
+   "Mercedes G-Klasse 2.7",
+   "Mercedes G-Klasse 4.0",
+   "Mercedes M-Klasse 2.7",
+   "Mercedes ML-Klasse 2.7",
+   "Mercedes ML-Klasse 4.0"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MITSUBISCHIEDC15C2",
+  "ids": [
+   67
+  ],
+  "notes": [],
+  "vehicles": [
+   "Carisma    1.9 hdi",
+   "Space Star 1.9 hdi"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "NISSANEDC15C2",
+  "ids": [
+   62
+  ],
+  "notes": [],
+  "vehicles": [
+   "Nissan Almera Tino 2.0",
+   "Nissan X-Trail 2.2",
+   "NISSAN PRIMASTAR 1.9 DCI",
+   "NISSAN PRIMERA 1.9 DCI",
+   "NISSAN PRIMERA 2.2 DCI",
+   "NISSAN TERRANO 2.7 TDI",
+   "NISSAN INTERSTAR 2.7 TDI"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPEL17DTI16V_1",
+  "ids": [
+   10
+  ],
+  "notes": [],
+  "vehicles": [
+   "Astra F 1.7 16V DTI Delco LVP4 Y17DT E2",
+   "Corsa B 1.7 16V Delco LVP4  Y17DT E2",
+   "Zafira 1.7 16V Delco LVP4  Y17DT E2"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPEL17DTI16V_2",
+  "ids": [
+   12
+  ],
+  "notes": [],
+  "vehicles": [
+   "Astra F 1.7 16V DTI Delco LVP11 Y17DT E3",
+   "Corsa B 1.7 16V Delco LVP11 Y17DT E3",
+   "Zafira 1.7 16V Delco LVP11 Y17DT E3"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPEL17DTI16V_3",
+  "ids": [
+   110
+  ],
+  "notes": [],
+  "vehicles": [
+   "Astra F 1.7 16V DTI Delco LVP11 Y17DT E4",
+   "MERIVA 1.7 16V DTI Delco LVP11 Y17DT E4",
+   "Corsa B 1.7 16V Delco LVP11 Y17DT E4",
+   "Zafira 1.7 16V Delco LVP11 Y17DT E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELME155E4",
+  "ids": [
+   14
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Corsa  1.0/1.2 16V BOSCH ME1.5.5",
+   "Agila 1.0/1.2 16V BOSCH ME1.5.5",
+   "Zafira 2.0 16V BOSCH ME1.5.5",
+   "Meriva 1.0/1.2 16V BOSCH ME1.5.5",
+   "Astra coupe 2.0 16V turbo BOSCH ME1.5.5",
+   "Astra 2.0 16V BOSCH ME1.5.5"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELM155E3",
+  "ids": [
+   15
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Astra G 1.2 16V Bosch M1.5.5",
+   "Corsa B 1.0 12V Bosch M1.5.5",
+   "Corsa B 1.2 16V Bosch M1.5.5",
+   "Corsa C 1.0 12V Bosch M1.5.5",
+   "Corsa C 1.2 16V Bosch M1.5.5"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELEDC15M",
+  "ids": [
+   21
+  ],
+  "notes": [],
+  "vehicles": [
+   "Astra F (4) 1.7 16V DTI Bosch EDC15M",
+   "Astra F (4) 2.0 16V DI Bosch EDC15M",
+   "Astra F (4) 2.2 16V DI Bosch EDC15M",
+   "Astra G 1.7 16V DI Bosch EDC15M",
+   "Astra G 2.0 16V DI Bosch EDC15M",
+   "Astra G 2.2 16V DI Bosch EDC15M",
+   "Frontera 2.2 DTI Bosch EDC15M",
+   "Vectra B 1.7 16V DI Bosch EDC15M",
+   "Vectra B 2.0 16V DI Bosch EDC15M",
+   "Vectra C 2.0 16V DI Bosch EDC15M",
+   "Vectra C 2.0 16V DTI Bosch EDC15M",
+   "Zafira 2.0 16V DI Bosch EDC15M",
+   "Omega 2.0 / 2.2 16V DI Bosch EDC15M",
+   "Saab 93/95 2.2 DTI 16V DI Bosch EDC15M",
+   "Isuzu C MAX 3.0 DTI"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPEL_IAW_MJD",
+  "ids": [
+   104
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Corsa   1.3 IAW MULTIJET",
+   "Agila   1.3 IAW MULTIJET",
+   "Suzuki Ignis 1.3 IAW MULTIJET"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELSIMTEC70",
+  "ids": [
+   29
+  ],
+  "notes": [],
+  "vehicles": [
+   "Astra F (4) 1.8 16V Siemens Simtec70",
+   "Astra F (4) 2.0 16V Siemens Simtec70",
+   "Astra G 1.8 16V Siemens Simtec70",
+   "Astra G 2.0 16V Siemens Simtec70",
+   "Omega B 2.0 16V Siemens Simtec70",
+   "Vectra B 1.8 16V Siemens Simtec70",
+   "Vectra B 2.0 16V Siemens Simtec70",
+   "Vectra C 1.8 16V Siemens Simtec70",
+   "Vectra C 2.0 16V Siemens Simtec70",
+   "Zafira 1.8 16V Siemens Simtec70",
+   "Zafira 2.0 16V Siemens Simtec70"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELDELCO_3",
+  "ids": [
+   30
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "CORSA 1.4 16V Multec 3",
+   "Astra G  1.4 16V Multec 3",
+   "Astra G  1.6 16V Multec 3",
+   "Vectra C 1.4 16V Multec 3",
+   "Vectra C 1.6 16V Multec 3"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELDELCO_2",
+  "ids": [
+   31
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "CORSA  1.4 16V Multec 2",
+   "Astra F  1.4 16V Multec 2",
+   "Astra F  1.6 16V Multec 2",
+   "Vectra B 1.4 16V Multec 2",
+   "Vectra B 1.6 16V Multec 2"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELEDC15C7",
+  "ids": [
+   32
+  ],
+  "notes": [],
+  "vehicles": [
+   "MERIVA 1.7 16V 80 / 100 CV CDTI",
+   "ASTRA G 1.7 16V 80 / 100 CV CDTI"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELDELCO_1",
+  "ids": [
+   35
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "CORSA  1.4 16V Multec 1",
+   "Astra F  1.4 16V Multec 1",
+   "Astra F  1.6 16V Multec 1",
+   "Vectra B 1.4 16V Multec 3",
+   "Vectra B 1.6 16V Multec 3"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELSIMTEC90",
+  "ids": [
+   52
+  ],
+  "notes": [],
+  "vehicles": [
+   "Astra F (4) 1.8 16V Simtec 90 e VDO 71.1",
+   "Astra F (4) 2.0 16V Simtec 90 e VDO 71.1",
+   "Astra G 1.8 16V Simtec 90 e VDO 71.1",
+   "Astra G 2.0 16V Simtec 90 e VDO 71.1",
+   "Omega B 2.0 16V Simtec 90 e VDO 71.1",
+   "Vectra B 1.8 16V Simtec 90 e VDO 71.1",
+   "Vectra B 2.0 16V Simtec 90 e VDO 71.1",
+   "Vectra C 1.8 16V Simtec 90 e VDO 71.1",
+   "Vectra C 2.0 16V Simtec 90 e VDO 71.1",
+   "Zafira 1.8 16V Simtec 90 e VDO 71.1",
+   "Zafira 2.0 16V Simtec 90 e VDO 71.1"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPEL2200DTR",
+  "ids": [
+   71
+  ],
+  "notes": [],
+  "vehicles": [
+   "ASTRA G 2.2 DTI",
+   "MERIVA 2.2 DTI"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELSIMTEC56",
+  "ids": [
+   73
+  ],
+  "notes": [],
+  "vehicles": [
+   "Astra E (4) 1.8 16V Siemens Simtec56",
+   "Astra E (4) 2.0 16V Siemens Simtec56",
+   "Astra E 1.8 16V Siemens Simtec56",
+   "Astra G 2.0 16V Siemens Simtec56",
+   "Omega A 2.0 16V Siemens Simtec56",
+   "Vectra A 1.8 16V Siemens Simtec56",
+   "Vectra A 2.0 16V Siemens Simtec56",
+   "Vectra B 1.8 16V Siemens Simtec56",
+   "Vectra B 2.0 16V Siemens Simtec56",
+   "Zafira 1.8 16V Siemens Simtec56",
+   "Zafira 2.0 16V Siemens Simtec56"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOTEDC15C2",
+  "ids": [
+   19
+  ],
+  "notes": [],
+  "vehicles": [
+   "Ulysse 2.0 JTD 16V Bosch EDC15C2",
+   "Ulysse 2.2 JTD 16V Bosch EDC15C2",
+   "Phedra 2.0 JTD Bosch EDC15C2",
+   "Phedra 2.2 JTD Bosch EDC15C2",
+   "Berlingo 2.0 HDI Bosch EDC15C2",
+   "C5 2.0 HDI Bosch EDC15C2",
+   "C5 2.2 HDI Bosch EDC15C2",
+   "C8 2.0 HDI Bosch EDC15C2",
+   "C8 2.0 HDI Bosch EDC15C2",
+   "Evasion 2.0 HDI Bosch EDC15C2",
+   "Jumper 2.0 HDI Bosch EDC15C2",
+   "Jumper 2.2 HDI Bosch EDC15C2",
+   "Jumper 2.8 HDI Bosch EDC15C7",
+   "Jumpy 2.0 HDI Bosch EDC15C2",
+   "Picasso 2.0 HDI Bosch EDC15C2",
+   "Synergie 2.0 HDI Bosch EDC15C2",
+   "Xantia 2.0 HDI Bosch EDC15C2",
+   "Xsara 2.0 HDI Bosch EDC15C2",
+   "Xsara Picasso 2.0 HDI Bosch EDC15C2",
+   "206 2.0 HDI Bosch EDC15C2",
+   "306 2.0 HDI Bosch EDC15C2",
+   "307 2.0 HDI 110PS Bosch EDC15C2",
+   "406 2.0 HDI Bosch EDC15C2",
+   "406 2.2 HDI Bosch EDC15C2",
+   "607 2.0 HDI Bosch EDC15C2",
+   "607 2.2 HDI Bosch EDC15C2",
+   "807 2.0 HDI Bosch EDC15C2",
+   "807 2.2 HDI Bosch EDC15C2",
+   "Boxer 2.0 HDI Bosch EDC15C2",
+   "Expert 2.0 HDI Bosch EDC15C2",
+   "Partner 2.0 HDI Bosch EDC15C2"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOT SID 881 801 2000cc",
+  "ids": [
+   81
+  ],
+  "notes": [],
+  "vehicles": [
+   "0READ BOOT MODE PIN 28 FLASH TO MASS",
+   "206 2.0 8V HDI 90CV E4",
+   "306 2.0 8V HDI 90CV E4",
+   "307 2.0 8V HDI 90CV E4",
+   "406 2.0 8V HDI 90CV E4",
+   "407 2.0 8V HDI 90CV E4",
+   "XARA 2.0 8V HDI 90CV E4",
+   "XANTIA 2.0 8V HDI 90CV E4",
+   "PICASSO 2.0 8V HDI 90CV E4",
+   "C5 2.0 8V HDI 90CV E4",
+   "BERLINGO 2.0 8V HDI 90CV E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOTSDI 804 1400cc",
+  "ids": [
+   114
+  ],
+  "notes": [],
+  "vehicles": [
+   "0READ BOOT MODE PIN 28 FLASH TO MASS",
+   "106 1,4 8V HDI 70CV E4",
+   "206 1,4 8V HDI 70CV E4",
+   "1007 1,4 8V HDI 70CV E4",
+   "SAXO 1,4 8V HDI 70CV E4",
+   "C2  1,4 8V HDI 70CV E4",
+   "C3  1,4 8V HDI 70CV E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOT SID 803 2000cc 16V 29BL802CB",
+  "ids": [
+   129
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "307 2.0 16V HDI 136CV E3",
+   "407 2.0 16V HDI 136CV E3",
+   "607 2.0 16V HDI 136CV E3"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOT SID 803A 2000cc 16V M58BW016xB",
+  "ids": [
+   146
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "307 2.0 16V HDI 136CV E4",
+   "407 2.0 16V HDI 136CV E4",
+   "607 2.0 16V HDI 136CV E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CPEUGEOTSDI_BOOTMODE400 881/801/804/806 1400cc ,2000CC",
+  "ids": [
+   94
+  ],
+  "notes": [],
+  "vehicles": [
+   "0 0READ & WRITE",
+   "0BOOT MODE PIN 28 FLASH TO MASS",
+   "106 1,4 8V HDI 70CV E4",
+   "1007 1,4 8V HDI 70CV E4",
+   "206 1,4 8V HDI 70CV E4",
+   "206 2.0 8V HDI 90CV E4",
+   "306 2.0 8V HDI 90CV E4",
+   "307 2.0 8V HDI 90CV E4",
+   "406 2.0 8V HDI 90CV E4",
+   "407 2.0 8V HDI 90CV E4",
+   "SAXO 1,4 8V HDI 70CV E4",
+   "C1  1,4 8V HDI 70CV E4",
+   "C2  1,4 8V HDI 70CV E4",
+   "C3  1,4 8V HDI 70CV E4",
+   "XARA 2.0 8V HDI 90CV E4",
+   "XANTIA 2.0 8V HDI 90CV E4",
+   "PICASSO 2.0 8V HDI 90CV E4",
+   "C5 2.0 8V HDI 90CV E4",
+   "BERLINGO 2.0 8V HDI 90CV E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOT_EDC16C3/9  1,4 1,6 16V",
+  "ids": [
+   96
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "206 1,4 16V HDI 90CV E4",
+   "307 1,4 16V HDI 90CV E4",
+   "206 1,6 16V HDI 110CV E4",
+   "307 1,6 16V HDI 110CV E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOT_EDC16C34  1,4 1,6 16V",
+  "ids": [
+   130
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "206 1,4 16V HDI 90CV E4 F.A.P.",
+   "307 1,4 16V HDI 90CV E4 F.A.P.",
+   "206 1,6 16V HDI 110CV E4 F.A.P.",
+   "307 1,6 16V HDI 110CV E4 F.A.P."
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOTME744",
+  "ids": [
+   33
+  ],
+  "notes": [],
+  "vehicles": [
+   "206 1.6 16V E3",
+   "306 1.6 16V E3",
+   "406 2.0 16V E3"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOTME745",
+  "ids": [
+   138
+  ],
+  "notes": [],
+  "vehicles": [
+   "1007 1.6 16V E4",
+   "207 1.6 16V E4",
+   "307 1.6 16V E4",
+   "407 2.0 16V E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOTIAW48P",
+  "ids": [
+   43
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "206 1.6 16V E3",
+   "306 1.6 16V E3",
+   "406 2.0 16V E3",
+   "SAXO 1.6 16V E3"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOTIAW48P2",
+  "ids": [
+   80
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "206 1.6 16V E4",
+   "306 1.6 16V E4",
+   "406 2.0 16V E4",
+   "SAXO 1.6 16V E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOTIAW6LPA01_20",
+  "ids": [
+   82
+  ],
+  "notes": [
+   "CHECKSUM TAB CALCULATED IN WRITING'"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "206 2.0 16V GTI 176 CV"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOTIAW6LPA01_14",
+  "ids": [
+   93
+  ],
+  "notes": [
+   "CHECKSUM TAB CALCULATED IN WRITING'"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "106 1.4 16V GTI 90 CV",
+   "206 1.4 16V GTI 90 CV",
+   "307 2.0 16V 136 CV",
+   "407 2.0 16V 136 CV",
+   "C5  2.0 16V 136 CV",
+   "C6  2.0 16V 136 CV",
+   "C8  2.0 16V 136 CV"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOT_SAGEM2000_14_E3",
+  "ids": [
+   118
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "106 1.2 1.4 1.6 8V E3",
+   "206 1.2 1.4 1.6 8V E3",
+   "306 1.2 1.4 1.6 8V E3"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOT_SAGEM2000_14_E4",
+  "ids": [
+   112
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "1007 1.2 1.4 1.6 8V E4",
+   "106   1.2 1.4 1.6 8V E4",
+   "206   1.2 1.4 1.6 8V E4",
+   "307   1.2 1.4 1.6 8V E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PORSCHE996_CC460",
+  "ids": [
+   115
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "996 3,6 ME 5.2 CC460",
+   "BOXTER 2,5 2,7 M 5.2 CC460"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PORSCHE_ME72_400",
+  "ids": [
+   124
+  ],
+  "notes": [],
+  "vehicles": [
+   "996 3,2 3,6 ME 7.2",
+   "BOXTER 3,2 3,6 ME 7.2"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PORSCHE_ME784_800",
+  "ids": [
+   154
+  ],
+  "notes": [],
+  "vehicles": [
+   "996 3,2 3,6 ME 7.8.4",
+   "BOXTER 3,2 3,6 ME 7.8.4",
+   "CARRERA S 3.8",
+   "CARRERA S 4X4 4,5 BITURBO"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PORSCHE_ME72_400",
+  "ids": [
+   127
+  ],
+  "notes": [],
+  "vehicles": [
+   "CAYENNE 4,5 V8",
+   "CAYENNE S 4,5 V8 BITURBO"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULTEDC15C2",
+  "ids": [
+   26
+  ],
+  "notes": [],
+  "vehicles": [
+   "Opel Vivaro 1.9 16V DI Bosch EDC15C2",
+   "Espace 1.9 dCi Bosch EDC15C2",
+   "Espace 2.2 dCi Bosch EDC15C2",
+   "Kangoo 1.9 dCi Bosch EDC15C2",
+   "Laguna 1.9 dCi Bosch EDC15C2",
+   "Megane 1.9 dCi Bosch EDC15C2",
+   "Scenic 1.9 dCi Bosch EDC15C2",
+   "Scenic 1.9 dTi Bosch EDC15C2",
+   "Trafic 1.9 dCi Bosch EDC15C2",
+   "MASTER 2.2 DCI BOSCH 29F400",
+   "MASTER 2.5 DCI BOSCH 29F400",
+   "MASTER 2.8 DCI BOSCH 29F200",
+   "MEGANE 1.9 DCI BOSCH 29F400"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULT DELPHIJTD",
+  "ids": [
+   28
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "MICRA 1.5 D 65cv DELPHI",
+   "MICRA 1.5 D 82cv DELPHI",
+   "CLIO 1.5 Dci 65cv DELPHI",
+   "CLIO 1.5 Dci 82cv DELPHI",
+   "CLIO 1.5 Dci 101cv DELPHI",
+   "MEGANE II 1.5 Dci 82cv DELPHI",
+   "MEGANE II 1.5 Dci 101cv DELPHI"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULT DELPHIJTD E4",
+  "ids": [
+   98
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "MODUS 1.5 D 65cv DELPHI E4",
+   "CLIO 1.5 Dci 65cv DELPHI E4",
+   "CLIO 1.5 Dci 82cv DELPHI E4",
+   "CLIO 1.5 Dci 101cv DELPHI E4",
+   "MEGANE II 1.5 Dci 82cv DELPHI E4",
+   "MEGANE II 1.5 Dci 101cv DELPHI E4",
+   "MICRA 1.5 D 65cv DELPHI E4",
+   "MICRA 1.5 D 82cv DELPHI E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CRENAULT_DENSO_DH5",
+  "ids": [
+   116
+  ],
+  "notes": [],
+  "vehicles": [
+   "ESPACE V6 3.0 DENDO DH5",
+   "GRAND ESPACE V6 3.0 DENDO DH",
+   "VEL SATIS 05  V6 3.0 DENDO DH5"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULT_EDC16C3",
+  "ids": [
+   117
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Espace 1.9 dCi EDC16 C3",
+   "Espace 2.2 dCi EDC16 C3",
+   "Kangoo 1.9 dCi EDC16 C3",
+   "Laguna 1.9 dCi Bosch EDC16 C3",
+   "Megane 1.9 dCi Bosch EDC16 C3",
+   "Scenic 1.9 dCi Bosch EDC16 C3",
+   "Scenic 1.9 dTi Bosch EDC16 C3",
+   "Trafic 1.9 dCi EDC16 C3"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULT_EDC16CP33",
+  "ids": [
+   171
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Trafic 1.9 dCi EDC16 CP33 E4",
+   "OPEL VIVARO 1.9 EDC16 CP33 E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULTSIRIUS32",
+  "ids": [
+   11
+  ],
+  "notes": [],
+  "vehicles": [
+   "Clio 1.4/1.6/2.0RS L 16v Siris 32",
+   "Megane 1.4/1.6/2.0 L 16v Siris 32",
+   "Scenic 1.4/1.6/2.0 L 16v Siris 32"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULTSIRIUS34",
+  "ids": [
+   107
+  ],
+  "notes": [],
+  "vehicles": [
+   "Clio 14/16  16v",
+   "Megane 14/16  16v",
+   "Scenic 14/16  16v",
+   "Clio RS 2.0 16v 170CV"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULT_IAW5NR",
+  "ids": [
+   105
+  ],
+  "notes": [],
+  "vehicles": [
+   "Clio 12/14  16v",
+   "Clio RS 2.0 16v 160CV",
+   "Megane 12/14  16v",
+   "Scenic 12/14  16v"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULT_SAGEM3000",
+  "ids": [
+   174
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Clio RS 2.0 16v 196CV",
+   "Megane 2.0 16v",
+   "Megane 2.0 16v TURBO 225CV"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "ROVEREDC15CDDE",
+  "ids": [
+   182
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "DEFENDER TD5 2.5 MENSNNN",
+   "DISCOVERY TD5 2.5 MENSNNN"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "ROVER_MENS_29F200",
+  "ids": [
+   108
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Freelender 2.0 16V MEMS 3",
+   "MG ROVER ZR 140 ZR 160 MEMS 3",
+   "Rover 25 1.4   1.6 16V MEMS 3",
+   "Rover 45 1.6   1.8+D45 16V MEMS 3",
+   "Rover 75 1.6   2.0 16V MEMS 3",
+   "MG CABRIO 1,4  1,6  1,8",
+   "D---------------------------------------------------------------Z",
+   "DEFENDER TD5 2.5 MENSNNN",
+   "DISCOVERY TD5 2.5 MENSNNN"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "ROVER_25_EMS_SIEMENS",
+  "ids": [
+   177
+  ],
+  "notes": [],
+  "vehicles": [
+   "DEFENDER 25 V6 SIEMENS EMS 2000 E4",
+   "FREELANDER 25 V6 SIEMENS EMS 2000 E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CSSANGYONG_DELPHI_27",
+  "ids": [
+   159
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "REXTON 2.7 DELPHI E4"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "SEATEDC15V",
+  "ids": [
+   56
+  ],
+  "notes": [],
+  "vehicles": [
+   "Alhambra 1.9 TDI VP37 Bosch EDC15V",
+   "Alhambra 1.9 TDI VP37 Bosch EDC15VM",
+   "Alhambra 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15V",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15VM",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15V",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15VM",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Leon 1.9 TDI VP37 Bosch EDC15V",
+   "Leon 1.9 TDI VP37 Bosch EDC15VM",
+   "Leon 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Toledo 1.9 TDI VP37 Bosch EDC15V",
+   "Toledo 1.9 TDI VP37 Bosch EDC15VM",
+   "Toledo 1.9 TDI VP37 Bosch EDC15VM-1M"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "SMARTE2E3",
+  "ids": [
+   46
+  ],
+  "notes": [],
+  "vehicles": [
+   "MCC Smart 600/700 Bosch MEG1.1"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "SMARTEDC15C",
+  "ids": [
+   47
+  ],
+  "notes": [],
+  "vehicles": [
+   "MCC Smart CDI 0.9 CDI EDG15C5"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "SMARTEDC16C31",
+  "ids": [
+   134
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Smart For Four 1.5 CDI EDC16+C31",
+   "Colt 1.5 DI-D"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "TOYOTAEDC15C9",
+  "ids": [
+   57
+  ],
+  "notes": [],
+  "vehicles": [
+   "Yaris 1.4 D4D 75cv",
+   "Yaris verso 1.4 D4D 75cv"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "VOLVOV40EDC15C3",
+  "ids": [
+   64
+  ],
+  "notes": [],
+  "vehicles": [
+   "Volvo V40 2.0 TDI"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "VOLVOD5EDC15C3",
+  "ids": [
+   92
+  ],
+  "notes": [],
+  "vehicles": [
+   "V70 2.5 5C",
+   "S60 2.5 5C",
+   "XC70 2.5 5C"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "VOLVOEDC16CP31_6",
+  "ids": [
+   170
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "S40 2.5 5C E4 180CV",
+   "V40 2.5 5C E4 180CV",
+   "V50 2.5 5C E4 180CV",
+   "V70 2.5 5C E4 180CV",
+   "S60 2.5 5C E4 180CV",
+   "XC70 2.5 5C E4 180CV",
+   "XC90 2.5 5C E4 180CV"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "VWEDC15P",
+  "ids": [
+   27
+  ],
+  "notes": [],
+  "vehicles": [
+   "A2 1.4 TDI  80CV",
+   "A3 1.9 TDI 101CV",
+   "A3 1.9 TDI 130CV",
+   "A4 1.9 TDI 101CV",
+   "A4 1.9 TDI 115CV",
+   "A4 1.9 TDI 130CV",
+   "A6 1.9 TDI 101CV",
+   "A6 1.9 TDI 130CV"
+  ],
+  "src": "auto.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CBOOT_SIEMENS400_800",
+  "ids": [
+   179
+  ],
+  "notes": [
+   "BOOT SIEMENS 29F400/800BB",
+   "PIN 24 FLASH TO MASS"
+  ],
+  "vehicles": [
+   "MS42,MS43,MSS44,",
+   "SIM4LE,SIM4LKE"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CSIEMENS_BOOTMODE_200_400",
+  "ids": [
+   94
+  ],
+  "notes": [
+   "BOOT SIEMENS 29F200/400BB CRIPT",
+   "PIN 28 FLASH TO MASS"
+  ],
+  "vehicles": [
+   "SIRIUS 32,SIRIUS34",
+   "SID801,SID802,SID804,SID805 SID806"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIEDC15P",
+  "ids": [
+   54
+  ],
+  "notes": [],
+  "vehicles": [
+   "A2 1.4 TDI  80CV",
+   "A3 1.9 TDI 101CV",
+   "A3 1.9 TDI 130CV",
+   "A4 1.9 TDI 101CV",
+   "A4 1.9 TDI 115CV",
+   "A4 1.9 TDI 130CV",
+   "A6 1.9 TDI 101CV",
+   "A6 1.9 TDI 130CV",
+   "Bora     1.9 PD",
+   "Golf 4   1.9 PD",
+   "Lupo     1.2 / 1.4 PD",
+   "New Beeatle 1.9 PD",
+   "Passat   1.9 PD",
+   "Polo     1.4/1.9 PD",
+   "Sharan   1.9 PD",
+   "Skoda Fabia   1.9 PD",
+   "Skoda Octavia 1.9 PD"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIME7.5.5",
+  "ids": [
+   66
+  ],
+  "notes": [],
+  "vehicles": [
+   "A3 1.8 TURBO      20V 150CV",
+   "A3 1.8 TURBO      20V 180CV",
+   "A3 S3 1.8 TURBO   20V 225CV",
+   "A4 1.8 TURBO      20V 150CV",
+   "A4 1.8 TURBO      20V 180CV",
+   "A6 1.8 TURBO      20V 150CV",
+   "A6 1.8 TURBO      20V 180CV",
+   "TT 1.8 TURBO      20V 150CV",
+   "TT 1.8 TURBO      20V 180CV",
+   "TT 4X4 1.8 TURBO  20V 225CV",
+   "Bora  1.8 Turbo",
+   "GOLF4 1.8 TURBO   20V 150CV",
+   "GOLF4 1.8 TURBO   20V 180CV",
+   "New Beeatle 1.8 Turbo",
+   "PASSAT 1.8 TURBO  20V 150CV",
+   "PASSAT 1.8 TURBO  20V 180CV",
+   "Sharan 1.8 Turbo",
+   "Skoda Octavia 1.8 Turbo",
+   "Skoda Superb  1.8 Turbo"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIME7.1.5 V6",
+  "ids": [
+   128
+  ],
+  "notes": [],
+  "vehicles": [
+   "A4 RS4 BITTURBO   375CV",
+   "A4 S4 2.7 BITURBO   270CV",
+   "A6 S6 2.7 BITURBO   270CV",
+   "A6 ALL ROAD 2.7 BITURBO   270CV",
+   "PASSAT 2.7 BITURBO   270CV"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIME7.5.1",
+  "ids": [
+   88
+  ],
+  "notes": [],
+  "vehicles": [
+   "A3 1.8 TURBO          20V 150CV",
+   "A3 1.8 TURBO          20V 180CV",
+   "A3 S3 1.8 TURBO       20V 225CV",
+   "A4 1.8 TURBO          20V 150CV",
+   "A4 1.8 TURBO          20V 180CV",
+   "A6 1.8 TURBO          20V 150CV",
+   "A6 1.8 TURBO",
+   "TT 1.8 TURBO          20V 150CV",
+   "TT 1.8 TURBO          20V 180CV",
+   "TT 4X4 1.8 TURBO      20V 225CV",
+   "GOLF4 1.8 TURBO       20V 150CV",
+   "GOLF4 1.8 TURBO       20V 180CV",
+   "PASSAT 1.8 TURBO      20V 150CV",
+   "PASSAT 1.8 TURBO      20V 180CV"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIME755BOOTMODE",
+  "ids": [
+   85
+  ],
+  "notes": [],
+  "vehicles": [
+   "A3 1.8 TURBO          20V 150CV",
+   "A3 1.8 TURBO          20V 180CV",
+   "A3 S3 1.8 TURBO       20V 225CV",
+   "A4 1.8 TURBO          20V 150CV",
+   "A4 1.8 TURBO          20V 180CV",
+   "A6 1.8 TURBO          20V 150CV",
+   "A6 1.8 TURBO          20V 180CV",
+   "TT 1.8 TURBO          20V 150CV",
+   "TT 1.8 TURBO          20V 180CV",
+   "TT 4X4 1800 TURBO     20V 225CV",
+   "GOLF4 1.8 TURBO       20V 150CV",
+   "GOLF4 1.8 TURBO       20V 180CV"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIME755, ME71.1, ME715BOOTMODE",
+  "ids": [
+   86,
+   90
+  ],
+  "notes": [],
+  "vehicles": [
+   "A3 1.8 TURBO          20V 150CV",
+   "A3 1.8 TURBO          20V 180CV",
+   "A3 S3 1.8 TURBO       20V 225CV",
+   "A4 1.8 TURBO          20V 150CV",
+   "A4 1.8 TURBO          20V 180CV",
+   "A6 1.8 TURBO          20V 150CV",
+   "A6 1.8 TURBO          20V 180CV",
+   "TT 1.8 TURBO          20V 150CV",
+   "TT 1.8 TURBO          20V 180CV",
+   "TT 4X4 1800 TURBO     20V 225CV",
+   "GOLF4 1.8 TURBO       20V 150CV",
+   "GOLF4 1.8 TURBO       20V 180CV",
+   "PASSAT 1.8 TURBO      20V 150CV",
+   "PASSAT 1.8 TURBO      20V 180CV",
+   "A4 RS4 BITTURBO   375CV",
+   "A4 S4 2.7 BITURBO   270CV",
+   "A6 S6 2.7 BITURBO   270CV",
+   "A6 ALL ROAD 2.7 BITURBO   270CV",
+   "PASSAT 2.7 BITURBO   270CV"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIME755_400_800",
+  "ids": [
+   91
+  ],
+  "notes": [],
+  "vehicles": [
+   "A3 1.8 TURBO          20V 150CV",
+   "A3 1.8 TURBO          20V 180CV",
+   "A3 S3 1.8 TURBO       20V 225CV",
+   "A4 1.8 TURBO          20V 150CV",
+   "A4 1.8 TURBO          20V 180CV",
+   "A6 1.8 TURBO          20V 150CV",
+   "A6 1.8 TURBO          20V 180CV",
+   "TT 1.8 TURBO          20V 150CV",
+   "TT 1.8 TURBO          20V 180CV",
+   "TT 4X4 1800 TURBO     20V 225CV",
+   "Bora  1.8 Turbo",
+   "GOLF4 1.8 TURBO   20V 150CV",
+   "GOLF4 1.8 TURBO   20V 180CV",
+   "New Beeatle 1.8 Turbo",
+   "PASSAT 1.8 TURBO  20V 150CV",
+   "PASSAT 1.8 TURBO  20V 180CV",
+   "Sharan 1.8 Turbo",
+   "Skoda Octavia 1.8 Turbo",
+   "Skoda Superb  1.8 Turbo"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIEDC15VP40_29F400",
+  "ids": [
+   68
+  ],
+  "notes": [],
+  "vehicles": [
+   "A4 2.5 TDI V6 BOSCH 150 / 180CV E3",
+   "A6 2.5 TDI V6 BOSCH 150 / 180CV E3",
+   "A8 2.5 TDI V6 BOSCH 150 / 180CV E3",
+   "Passat 2.5 V6  155CV"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIEDC15VP40_29F800",
+  "ids": [
+   89
+  ],
+  "notes": [],
+  "vehicles": [
+   "A4 2.5 TDI V6 BOSCH 163 / 180CV E4",
+   "A6 2.5 TDI V6 BOSCH 163 / 180CV E4",
+   "A8 2.5 TDI V6 BOSCH 163 / 180CV E4",
+   "Passat 2.5 V6  155CV"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "VWEDC15V",
+  "ids": [
+   55
+  ],
+  "notes": [],
+  "vehicles": [
+   "A3 1.9 TDI 90CV",
+   "A3 1.9 TDI 110CV",
+   "A4 1.9 TDI 90CV",
+   "A4 1.9 TDI 110CV",
+   "A6 1.9 TDI 110CV",
+   "Bora     1.9 TDI",
+   "Golf 4   1.9 TDI",
+   "New Beeatle 1.9 TDI",
+   "Passat   1.9 TDI",
+   "Sharan   1.9 TDI",
+   "Skoda Fabia   1.9 TDI",
+   "Skoda Octavia 1.9 TDI",
+   "Skoda Superb  2.5 TDI  V6",
+   "Alhambra 1.9 TDI VP37 Bosch EDC15V",
+   "Alhambra 1.9 TDI VP37 Bosch EDC15VM",
+   "Alhambra 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15V",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15VM",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15V",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15VM",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Leon 1.9 TDI VP37 Bosch EDC15V",
+   "Leon 1.9 TDI VP37 Bosch EDC15VM",
+   "Leon 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Toledo 1.9 TDI VP37 Bosch EDC15V",
+   "Toledo 1.9 TDI VP37 Bosch EDC15VM",
+   "Toledo 1.9 TDI VP37 Bosch EDC15VM-1M"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "VWEDC15Va",
+  "ids": [
+   180
+  ],
+  "notes": [
+   "BASSA VELOCITA / SLOW SPEED '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A3 1.9 TDI 90CV",
+   "A3 1.9 TDI 110CV",
+   "A4 1.9 TDI 90CV",
+   "A4 1.9 TDI 110CV",
+   "A6 1.9 TDI 110CV",
+   "Bora     1.9 TDI",
+   "Golf 4   1.9 TDI",
+   "New Beeatle 1.9 TDI",
+   "Passat   1.9 TDI",
+   "Sharan   1.9 TDI",
+   "Skoda Fabia   1.9 TDI",
+   "Skoda Octavia 1.9 TDI",
+   "Skoda Superb  2.5 TDI  V6",
+   "Alhambra 1.9 TDI VP37 Bosch EDC15V",
+   "Alhambra 1.9 TDI VP37 Bosch EDC15VM",
+   "Alhambra 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15V",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15VM",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15V",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15VM",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Leon 1.9 TDI VP37 Bosch EDC15V",
+   "Leon 1.9 TDI VP37 Bosch EDC15VM",
+   "Leon 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Toledo 1.9 TDI VP37 Bosch EDC15V",
+   "Toledo 1.9 TDI VP37 Bosch EDC15VM",
+   "Toledo 1.9 TDI VP37 Bosch EDC15VM-1M"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "VWEDC15Pa",
+  "ids": [
+   63
+  ],
+  "notes": [
+   "BASSA VELOCITA / SLOW SPEED '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A2   1.4 TDI 75CV",
+   "POLO 1.4 TDI 75CV"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIVWEDC16U1",
+  "ids": [
+   102
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A3     2.0 TDI 140 CV",
+   "A4     2.0 TDI 140 CV",
+   "A6     2.0 TDI  PD",
+   "CADDY  1.9 TDI 105 CV",
+   "CADDY  2.0 TDI",
+   "GOLF 5 2.0 TDI 140 CV",
+   "GOLF 5 1.9 TDI 105 CV",
+   "NEW PASSAT 1.9 TDI 105 CV",
+   "TOURAN 1.9 TDI 105 CV",
+   "TUAREG 2.5 TDI 185 CV",
+   "OCTAVIA 1.9/2.0  TDI PD"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIVWEDC16U31_4C",
+  "ids": [
+   133
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A3     2.0 TDI 140 CV",
+   "A4     2.0 TDI 140 CV",
+   "GOLF 5 1.9 TDI 105 CV",
+   "GOLF 5 2.0 TDI 140 CV",
+   "NEW PASSAT 1.9 TDI 105 CV",
+   "TUAREG 2.5 TDI 185 CV"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIVWEDC16U34_4C",
+  "ids": [
+   172
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A3     2.0 TDI 140 CV",
+   "A4     2.0 TDI 140 CV",
+   "GOLF 5 1.9 TDI 105 CV",
+   "GOLF 5 2.0 TDI 140 CV",
+   "NEW PASSAT 1.9 TDI 105 CV",
+   "TUAREG 2.5 TDI 185 CV"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIVWEDC16 CP34 V6 30",
+  "ids": [
+   125
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A4 3.0 V6 TDI 215 CV E4",
+   "A6 3.0 V6 TDI 215 CV E4",
+   "A8 3.0 V6 TDI 215 CV E4",
+   "TUAREG 3.0 V6 TDI 215 CV E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIVWEDC16 CP34 V10",
+  "ids": [
+   147
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A8 5.0 V10 TDI E4",
+   "TUAREG 5.0 V10 TDIE4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "AUDIVWEDC16 C4 V8 40",
+  "ids": [
+   165
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A8 4.0 V8 TDI E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CAUDIVW_MED9510",
+  "ids": [
+   176
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A2 1.6 16v FSI E4",
+   "A3 1.6 16v FSI E4",
+   "GOLF5 1.6 16v FSI E4",
+   "GOLF5 2.0 16v FSI E4",
+   "TOURAN 1.6 16v FSI E4",
+   "TOURAN 2.0 16v FSI E4",
+   "ALTEA 2.0 16v FSI E4",
+   "TOLEDO 2.0 16v FSI E4",
+   "LEON 2.0 16v FSI E4",
+   "JETTA 1.6 16v FSI E4",
+   "JETTA 2.0 16v FSI E4",
+   "PASSAT 1.6 16v FSI E4",
+   "PASSAT 2.0 16v FSI E4",
+   "OCTAVIA 1.6 16v FSI E4",
+   "OCTAVIA 2.0 16v FSI E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMW330D",
+  "ids": [
+   0
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E46) 3.0 D Bosch DDE4.0",
+   "BMW Serie 5 (E39) 2.5 D Bosch DDE4.0",
+   "BMW Serie 5 (E39) 3.0 D Bosch DDE4.0",
+   "BMW Serie 7 (E38) 3.0 D Bosch DDE4.0",
+   "BMW Serie X5 (E53) 3.0 D Bosch DDE4.0",
+   "Mini D 1400 70CV Bosch EDC15C2 DDE",
+   "Rover 25 75 2.0 CDT Bosch DDE4.0",
+   "Rover 75 Tourer 2.0 CDT Bosch DDE4.0",
+   "Freelender 2.0 CDT Bosch DDE4.0"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMW320D",
+  "ids": [
+   9
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E46) 2.0 D Bosch EDC15",
+   "BMW Serie 5 (E39) 2.0 D Bosch EDC15"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMW318M52",
+  "ids": [
+   8
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E36) 1.8 i Bosch ME5.2.1b",
+   "BMW Z3 Roadster 1.9 Bosch ME5.2.1b"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMW318BMS46",
+  "ids": [
+   17
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E46) 1.9 Bosch BMS46",
+   "BMW Z3 Roadster 1.9 Bosch Bosch BMS46"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMW318M52",
+  "ids": [
+   126
+  ],
+  "notes": [],
+  "vehicles": [
+   "540 / 740 / X5 4.0 Bosch ME5.2.1b"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWMSS52M3E46",
+  "ids": [
+   1
+  ],
+  "notes": [],
+  "vehicles": [
+   "M3 3.2 E46 SIEMENS MSS52/53",
+   "M5 5.0 V8  SIEMENS MSS54",
+   "Z8 5.0 V8  SIEMENS MSS54"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWMSS50M3E36",
+  "ids": [
+   2
+  ],
+  "notes": [],
+  "vehicles": [
+   "M3 3.2 E36 SIEMENS MSS50",
+   "Z3 M 3.2 SIEMENS MSS50"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWMINI90_110_S",
+  "ids": [
+   3
+  ],
+  "notes": [],
+  "vehicles": [
+   "MINI 0NE EURO 3",
+   "MINI COUPER EURO 3",
+   "MINI COUPER S EURO 3"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWMINI_VDO_SIEMENS",
+  "ids": [
+   113
+  ],
+  "notes": [],
+  "vehicles": [
+   "MINI 0NE EURO 4",
+   "MINI COUPER  EURO 4",
+   "MINI COUPER S YORK 170CV EURO 4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWMS41",
+  "ids": [
+   5
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E36) 2.0 i Siemens MS41",
+   "BMW Serie 3 (E36) 2.5 i Siemens MS41",
+   "BMW Serie 3 (E36) 2.8 i Siemens MS41",
+   "BMW Serie 5 (E39) 2.0 i Siemens MS41",
+   "BMW Serie 5 (E39) 2.5 i Siemens MS41",
+   "BMW Serie 7 (E38) 2.8 i Siemens MS41",
+   "BMW Z3 Roadster 2.0 Siemens MS41",
+   "BMW Z3 Roadster 2.8 Siemens MS41"
+  ],
+  "src": "auto2.dll",
+  "chk_present": true
+ },
+ {
+  "name": "BMWMS42",
+  "ids": [
+   6
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E36) 2.0i Siemens Ms42",
+   "BMW Serie 3 (E36) 2.3i Siemens Ms42",
+   "BMW Serie 3 (E36) 2.5i Siemens Ms42",
+   "BMW Serie 3 (E36) 2.8i Siemens Ms42",
+   "BMW Serie 3 (E36) 3.0i Siemens Ms42",
+   "BMW Serie 3 (E36) 3.2i Siemens Ms42",
+   "BMW Serie 5 (E39) 2.0i Siemens Ms42",
+   "BMW Serie 5 (E39) 2.5i Siemens Ms42",
+   "BMW Serie 5 (E39) 2.3i Siemens Ms42",
+   "BMW Serie 5 (E39) 2.8i Siemens Ms42",
+   "BMW Serie 5 (E39) 3.0i Siemens Ms42",
+   "BMW Serie 5 (E39) 3.2i Siemens Ms42"
+  ],
+  "src": "auto2.dll",
+  "chk_present": true
+ },
+ {
+  "name": "BMWMS43",
+  "ids": [
+   7
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E46) 2.0i Siemens Ms43",
+   "BMW Serie 3 (E46) 2.3i Siemens Ms43",
+   "BMW Serie 3 (E46) 2.5i Siemens Ms43",
+   "BMW Serie 3 (E46) 2.8i Siemens Ms43",
+   "BMW Serie 3 (E46) 3.0i Siemens Ms43",
+   "BMW Serie 3 (E46) 3.2i Siemens Ms43",
+   "BMW Serie 5 (E39) 2.0i Siemens Ms43",
+   "BMW Serie 5 (E39) 2.3i Siemens Ms43",
+   "BMW Serie 5 (E39) 2.5i Siemens Ms43",
+   "BMW Serie 5 (E39) 2.8i Siemens Ms43",
+   "BMW Serie 5 (E39) 3.0i Siemens Ms43",
+   "BMW Serie 5 (E39) 3.2i Siemens Ms43"
+  ],
+  "src": "auto2.dll",
+  "chk_present": true
+ },
+ {
+  "name": "BMW320EDC16",
+  "ids": [
+   23
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E46) 150CV  Bosch EDC16"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWMSS53E46CSL",
+  "ids": [
+   44
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW M3 CSL (E46) 370CV SIEMENS MSS54"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWMINID",
+  "ids": [
+   45
+  ],
+  "notes": [],
+  "vehicles": [
+   "Mini D 1400 70CV Bosch EDC15C2 DDE"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMW318ME9",
+  "ids": [
+   48
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E46) VALVETRONIC 150CV"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMW330D_INTERA",
+  "ids": [
+   49
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 3 (E46) 3.0 D  A TAVOLINO",
+   "BMW Serie 5 (E39) 2.5 D  A TAVOLINO",
+   "BMW Serie 5 (E39) 3.0 D  A TAVOLINO",
+   "BMW Serie 7 (E38) 3.0 D  A TAVOLINO",
+   "BMW Serie X5 (E53) 3.0 D  A TAVOLINO"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWMODULOTV",
+  "ids": [
+   76
+  ],
+  "notes": [],
+  "vehicles": [
+   "ATTIVAZIONE MODULO TV",
+   "BMW Serie 3 (E46)",
+   "BMW Serie 5 (E39)",
+   "BMW Serie 5 (E39)",
+   "BMW Serie 7 (E38)",
+   "BMW Serie X5 (E53)"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "BMWME71",
+  "ids": [
+   79
+  ],
+  "notes": [],
+  "vehicles": [
+   "BMW Serie 5 (E39) 4.4 D Bosch ME7.1",
+   "BMW Serie 7 (E38) 4.4 D Bosch ME7.1",
+   "BMW Serie X5 (E53) 4.4 D Bosch ME7.1"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CHEVROLET_SIRIUS_5WY",
+  "ids": [
+   169
+  ],
+  "notes": [],
+  "vehicles": [
+   "Kalos 12 SIEMENS 5WY",
+   "Rubeo 12 SIEMENS 5WY"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CHRYSLEREDC15C2",
+  "ids": [
+   65
+  ],
+  "notes": [],
+  "vehicles": [
+   "Chrysler Grand Cherokee 2.7 CRD",
+   "Chrysler Jeep Cherokee 2.5 CRD",
+   "Chrysler Jeep Cherokee 2.8 CRD",
+   "Chrysler PT Cruiser 2.2 CRD",
+   "Chrysler Voyager 2.5 CRD"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CHRYSLEREDC16 Cp31",
+  "ids": [
+   168
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Chrysler 300 C 3.0 CRD V6",
+   "JEEP Grand Cherokee 3.0 CRD V6",
+   "JEEP commander 3.0 CRD V6"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CCITROEN_DELPHI_16",
+  "ids": [
+   95
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "C2 HDI DELPHI 1.6 8V E4",
+   "C3 HDI DELPHI 1.6 8V E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CCITROENME744",
+  "ids": [
+   84
+  ],
+  "notes": [],
+  "vehicles": [
+   "C2 1.6 16V E3",
+   "C3 1.6 16V E3",
+   "C4 1.6 16V E3",
+   "SAXO 1.6 16V E3"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CCITROENME745",
+  "ids": [
+   109
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "C2 1.6 16V E4",
+   "C3 1.6 16V E4",
+   "C4 1.6 16V E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CCITROEN_SAGEM2000_14",
+  "ids": [
+   101
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "C1 1.2 1.4 8V E3",
+   "C2 1.2 1.4 8V E3",
+   "C3 1.2 1.4 8V E3"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CCITROEN_IAW48P2",
+  "ids": [
+   158
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "C1 1.1 / 1.4 8V E4",
+   "C2 1.1 / 1.4 8V E4",
+   "C3 1.1 / 1.4 8V E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FERRARIM52",
+  "ids": [
+   34
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Ferrari 355 E 456 M5.2 CC460"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FERRARI360ME7",
+  "ids": [
+   41
+  ],
+  "notes": [],
+  "vehicles": [
+   "Ferrari Modena 3.6 Bosch ME7.3H4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FERRARI 430 ME7.3.2",
+  "ids": [
+   150
+  ],
+  "notes": [],
+  "vehicles": [
+   "Ferrari 430  4.3 V8"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "Fiat/Alfa: m155",
+  "ids": [
+   4
+  ],
+  "notes": [],
+  "vehicles": [
+   "Alfa 145 1.4 Bosch M1.5.5",
+   "Alfa 145 1.6 Bosch M1.5.5",
+   "Alfa 146 1.4 Bosch M1.5.5",
+   "Alfa 146 1.6 Bosch M1.5.5",
+   "Alfa 146 1.8 Bosch M1.5.5",
+   "Alfa 146 2.0 Bosch M1.5.5",
+   "Alfa 156 1.6 Bosch M1.5.5",
+   "Alfa 156 1.8 Bosch M1.5.5",
+   "Alfa 156 2.0 Bosch M1.5.5",
+   "Alfa 166 2.0 Bosch M1.5.5",
+   "Alfa 166 2.0 Bosch M1.5.5",
+   "Alfa GTV 1.8 TS 16V Bosch M1.5.5",
+   "Alfa GTV 2.0 TS 16V Bosch M1.5.5",
+   "Alfa GTV 3.0 TS 16V Bosch M1.5.5",
+   "Alfa Spider 1.8 TS Bosch M1.5.5",
+   "Alfa Spider 2.0 TS 16V Bosch M1.5.5",
+   "Alfa Spider 3.0 TS 16V Bosch M1.5.5",
+   "Fiat Bravo/Brava 1.2 Bosch M1.5.5"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "Fiat/Alfa/Lancia euro2",
+  "ids": [
+   13
+  ],
+  "notes": [],
+  "vehicles": [
+   "Alfa 145 1.9 JTD Bosch EDC15C5",
+   "Alfa 146 1.9 JTD Bosch EDC15C5",
+   "Alfa 156 1.9 JTD Bosch EDC15C5",
+   "Alfa 156 2.4 JTD Bosch EDC15C5",
+   "Alfa 166 2.4 JTD Bosch EDC15C5",
+   "Fiat Bravo/Brava 1.9 JTD Bosch EDC15C5",
+   "Fiat Multipla 1.9 JTD Bosch EDC15C5",
+   "Fiat Marea 1.9 JTD Bosch EDC15C5",
+   "Fiat Marea 2.4 JTD Bosch EDC15C5",
+   "Lancia K 2.4 JTD Bosch EDC15C5",
+   "Lancia Lybra 1.9 JTD Bosch EDC15C5",
+   "Lancia Lybra 2.4 JTD Bosch EDC15C5",
+   "Lancia Z 2.0 JTD Bosch EDC15C5"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATME73H4KWP2000",
+  "ids": [
+   16
+  ],
+  "notes": [],
+  "vehicles": [
+   "Fiat Punto 1.2 Bosch ME7.2.1 E3 prog. lenta",
+   "Lancia Y 1.2 Bosch ME7.2.1 E3 prog. lenta"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "Fiat/Alfa/Lancia: euro3",
+  "ids": [
+   22
+  ],
+  "notes": [],
+  "vehicles": [
+   "Alfa 147 1.9 JTD 16V Bosch EDC15C7",
+   "Alfa 147 1.9 JTD 8V Bosch EDC15C7",
+   "Alfa 156 1.9 JTD Bosch EDC15C7",
+   "Alfa 156 2.4 JTD Bosch EDC15C7",
+   "Alfa 166 2.4 JTD Bosch EDC15C7",
+   "Fiat Bravo/Brava 1.9 JTD Bosch EDC15C7",
+   "Fiat Doblo 1.9 JTD Bosch EDC15C7",
+   "Fiat Ducato 2.0 JTD Bosch EDC15C7",
+   "Fiat Ducato 2.3 JTD Bosch EDC15C7",
+   "Fiat Ducato 2.8 JTD Bosch EDC15C7",
+   "Fiat Marea 1.9 JTD Bosch EDC15C7",
+   "Fiat Marea 2.4 JTD Bosch EDC15C7",
+   "Fiat Multipla 1.9 JTD Bosch EDC15C7",
+   "Fiat Palio 1.9 JTD Bosch EDC15C7",
+   "Fiat Scudo 2.0 JTD Bosch EDC15C7",
+   "Fiat Stilo 1.9 JTD Bosch EDC15C7",
+   "Lancia Lybra 1.9 JTD Bosch EDC15C7",
+   "Lancia Lybra 2.4 JTD Bosch EDC15C7",
+   "Lancia Thesis 2.4 JTD Bosch EDC15C7"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATPUNTOEDC15C6",
+  "ids": [
+   25
+  ],
+  "notes": [],
+  "vehicles": [
+   "Fiat Punto 1.9 JTD Bosch EDC15C6",
+   "Fiat Punto 1.9 JTD Bosch EDC15C7"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "IAW MJD 6J MULTIGET",
+  "ids": [
+   83
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Fiat Punto      1.3 IAW MULTIJET",
+   "Fiat Idea       1.3 IAW MULTIJET",
+   "Fiat Panda New  1.3 IAW MULTIJET"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATME7.2.1 EURO3",
+  "ids": [
+   37
+  ],
+  "notes": [],
+  "vehicles": [
+   "Fiat Punto 1.2 Bosch ME7.2.1 Euro3",
+   "Lancia Y 1.2 Bosch ME7.2.1 Euro3"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATME73H4EURO4",
+  "ids": [
+   38
+  ],
+  "notes": [],
+  "vehicles": [
+   "Fiat Punto 1.2 Bosch ME7.H3",
+   "Fiat Stilo 2.4 Bosch ME7.3.1",
+   "Lancia Y 1.2 Bosch ME7.H3"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "ALFAME21",
+  "ids": [
+   39
+  ],
+  "notes": [],
+  "vehicles": [
+   "Alfa 156 2.0 Bosch ME2.1",
+   "Alfa 166 2.5 V6 24V Bosch ME2.1",
+   "Alfa GTV 3.0 V6 24V Bosch ME2.1",
+   "Alfa Spider 3.0 V6 24V Bosch ME2.1",
+   "Fiat Bravo/Brava 2.0 Bosch ME2.1",
+   "Fiat Bravo/Brava 2.0 20V Bosch ME2.1",
+   "Fiat Coupe 2.0 20V Bosch ME2.1",
+   "Fiat Marea 2.4 MDI 20V Bosch ME2.1",
+   "Lancia Lybra 2.0 i 20V Bosch ME2.1"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "ALFAM21  28F200BXB",
+  "ids": [
+   53
+  ],
+  "notes": [],
+  "vehicles": [
+   "Alfa Romeo 156 2.5 Bosch M2.1",
+   "Alfa Romeo 166 2.0 V6 Turbo Bosch M2.1",
+   "Alfa Romeo 166 2.5 V6 24V Bosch M2.1",
+   "Alfa Romeo 166 3.0 V6 24V Bosch M2.1"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "ALFAME731HA",
+  "ids": [
+   40
+  ],
+  "notes": [],
+  "vehicles": [
+   "Alfa Romeo 147 1.6 Bosch ME7.3.1",
+   "Alfa Romeo 147 2.0 TS Bosch ME7.3.1",
+   "Alfa Romeo 156 1.6 Bosch ME7.3.1",
+   "Alfa Romeo 156 1.8 Bosch ME7.3.1",
+   "Alfa Romeo 156 2.0 Bosch ME7.3.1",
+   "Alfa Romeo 166 2.0 Bosch ME7.3.1",
+   "Alfa Romeo 166 2.5 Bosch ME7.3.1",
+   "Alfa Romeo 166 3.0 Bosch ME7.3.1",
+   "Alfa Romeo GTV 2.0 TS 16V Bosch ME7.3.1",
+   "Alfa Romeo GTV 3.0 TS 16V Bosch ME7.3.1",
+   "Alfa Romeo Spider 2.0 TS 16V Bosch ME7.3.1",
+   "Alfa Romeo Spider 3.0 TS 16V Bosch ME7.3.1",
+   "Lancia Lybra 2.0 Bosch ME7.3.1",
+   "Lancia Thesis 2.0 Turbo Bosch ME7.3.1",
+   "FIAT DOBLO 1.3 16V BOSCH IBRIDA ME7.3.1",
+   "FIAT PALIO 1.0 16V BOSCH IBRIDA ME7.3.1",
+   "FIAT PALIO 1.3 16V BOSCH IBRIDA ME7.3.1"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATIAW 4AF 59F",
+  "ids": [
+   103
+  ],
+  "notes": [],
+  "vehicles": [
+   "FIAT 500/600 1.0 1.1 E3 IAW 59F",
+   "FIAT PANDA 1.0 1.1 E3 IAW 59F",
+   "FIAT DOBLO 1.2 8v MPI E3 IAW 59F",
+   "FIAT PUNTO 1.2 8v MPI E3 IAW 59F"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATIAW 4AF 59F",
+  "ids": [
+   106
+  ],
+  "notes": [],
+  "vehicles": [
+   "FIAT 500/600 1.0 1.1 E3 IAW 59F",
+   "FIAT PANDA 1.0 1.1 E3 IAW 59F",
+   "FIAT DOBLO 1.2 8v MPI E3 IAW 59F",
+   "FIAT PUNTO 1.2 8v MPI E3 IAW 59F",
+   "DUCATI IAW 59F",
+   "0 DECODIFICA E CLONA TUTTE IAW 4AF/59F",
+   "0 DECODE END CLONE ALL IAW 4AF/ 59F",
+   "0 VEDI PDF IN CARTELLA DOCUMENTI",
+   "0 SEE PDF IN FOLDER DOCUMENTS"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATEDC16C8",
+  "ids": [
+   50
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Alfa 147 1.9 16v MJ Bosch EDC16 C8",
+   "Alfa 156 1.9 16v MJ Bosch EDC16 C8",
+   "Alfa 156 2.4 16v MJ Bosch EDC16 C8",
+   "Alfa 166 2.4 16v MJ Bosch EDC16 C8",
+   "STILO 1.9 16v MJ Bosch EDC16 C8"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATEDC16C9",
+  "ids": [
+   141
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Alfa 147 1.9 16v MJ Bosch EDC16 C9",
+   "Alfa 156 1.9 16v MJ Bosch EDC16 C9",
+   "Alfa 156 2.4 20v MJ Bosch EDC16 C9",
+   "Alfa 166 2.4 20v MJ Bosch EDC16 C9",
+   "STILO 1.9 16v MJ Bosch EDC16 C9",
+   "IDEA 1.9 16v MJ Bosch EDC16 C9"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FIATEDC16C39",
+  "ids": [
+   132
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Alfa 147 1.9 16v MJ Bosch EDC16 C39",
+   "Alfa 156 1.9 16v MJ Bosch EDC16 C39",
+   "Alfa 159 1.9 16v MJ Bosch EDC16 C39",
+   "Alfa 156 2.4 20v MJ Bosch EDC16 C39",
+   "Alfa 159 2.4 20v MJ Bosch EDC16 C39",
+   "Alfa 166 2.4 20v MJ Bosch EDC16 C39",
+   "STILO 1.9 16v MJ Bosch EDC16 C39",
+   "IDEA 1.9 16v MJ Bosch EDC16 C39",
+   "CROMA 1.9 16v MJ Bosch EDC16 C39",
+   "CROMA 2.4 20v MJ Bosch EDC16 C39"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "IAW 49F / 4EF",
+  "ids": [
+   18
+  ],
+  "notes": [],
+  "vehicles": [
+   "FIAT  BRAVO 1.6 16V IAW 49F",
+   "FIAT  BRAVO 1.6 16V IAW 4EF",
+   "FIAT  PUNTO 1.2 8V IAW 4EF"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "IAW 59F /  5NF  MOTOROLA",
+  "ids": [
+   120
+  ],
+  "notes": [],
+  "vehicles": [
+   "FIAT  STILO 1.6 16V IAW 5NF",
+   "FIAT  MULTIPLA 1.6 16V IAE 5NF",
+   "FIAT  NEW PANDA 1.2 16V IAW 5NF",
+   "FIAT  PUNTO 1.2 8V IAW 59F",
+   "FIAT  PANDA 1.2 8V IAW 5NF"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FORD_EDC16C34 1,6 16V",
+  "ids": [
+   136
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "C-MAX  1,6 16V HDI 90/120CV E3",
+   "FIESTA 1,4 16V HDI 80/E3",
+   "FIESTA 1,6 16V HDI 90/120CV E3",
+   "FOCUS  1,6 16V HDI 90/120CV E3"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "FORD_EDC16C3 1,6 16V",
+  "ids": [
+   162
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "C-MAX  1,6 16V HDI 90/110CV E3",
+   "FIESTA 1,6 16V HDI 90/110CV E3",
+   "FOCUS  1,6 16V HDI 90/110CV E3"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "HONDAEDC15C7",
+  "ids": [
+   60
+  ],
+  "notes": [],
+  "vehicles": [
+   "Honda Civic 15 Dti"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "HONDA_EDC16C31",
+  "ids": [
+   156
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "ACCORD  2.2 I CTDI E4",
+   "CIVIC       2.2 I CTDI E4",
+   "CR V        2.2 I CTDI E4",
+   "FR V        2.2 I CTDI E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "HONDAME729F800",
+  "ids": [
+   144
+  ],
+  "notes": [],
+  "vehicles": [
+   "HONDA JETZ 1.4 16V ME7"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "HYUNDAIEDC15C2",
+  "ids": [
+   61
+  ],
+  "notes": [],
+  "vehicles": [
+   "Hyundai Accent 1.5 CRDI",
+   "Hyundai Elantra 2.0 CRDI",
+   "Hyundai Matrix 1.5 CRDI",
+   "Hyundai Santa Fe 2.0 CRDI",
+   "Hyundai Trajet 2.0 CRDI",
+   "HYUNDAI GETZ 2.0 CRDI",
+   "Hyundai Tucson 2.0 CRDI",
+   "Hyundai Starex 2.0 CRDI"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "IVECO_MS63_200",
+  "ids": [
+   143
+  ],
+  "notes": [],
+  "vehicles": [
+   "DAILY MS6.3  2,5 2,8"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "IVECO_EDC7",
+  "ids": [
+   51
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "TECTOR EDC7 4C 6C  24V",
+   "MC CORMIK TRACKTOR 12V"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "IVECO_EDC16 C8",
+  "ids": [
+   99
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "DAILY EDC16 C8  2,5 2,8"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "IVECO_EDC16 C39_5",
+  "ids": [
+   173
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "NEW DAILY EDC16 C39/5  2,5 2,8"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "KIAEDC15C2",
+  "ids": [
+   75
+  ],
+  "notes": [],
+  "vehicles": [
+   "Kia Carens 2.0 CRDi 16V",
+   "Kia Sorento 2.5 CRDi",
+   "Kia Cerato 2.0 CRDi",
+   "Kia Sportage 2.0 CRDi"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "KIA DELPHI DDCR E3",
+  "ids": [
+   119
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Kia carnival 2.9 CRDi 16V Delphi",
+   "Hyundai  Terracan 2.9 DDCR"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "KIAEDC16+c39",
+  "ids": [
+   145
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "KIA RIO CRDI EDC16+ C39",
+   "HYUNDAI GETZ 1.5 CRDI",
+   "Hyundai Tucson 2.0 CRDI"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MAN_EDC7",
+  "ids": [
+   139
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Man TGA 4/6 E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MAN_MS6.1",
+  "ids": [
+   151
+  ],
+  "notes": [],
+  "vehicles": [
+   "Man TGA 4/6 E2"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MAN_MS6.4",
+  "ids": [
+   157
+  ],
+  "notes": [],
+  "vehicles": [
+   "Man TGA 4/6 E3"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MASERATIMED71",
+  "ids": [
+   69
+  ],
+  "notes": [],
+  "vehicles": [
+   "COUPE V8 4200 MED71",
+   "COUPE CAMBIO CORSA V8 4200 MED71",
+   "SPIDER V8 4200 MED71",
+   "SPIDER CAMBIO CORSA V8 4200 MED71"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDESEDC15C5",
+  "ids": [
+   58
+  ],
+  "notes": [],
+  "vehicles": [
+   "Mercedes A-Klasse 1.7/1.6 CDI",
+   "Mercedes C-Klasse (W201) 2.0/2.2/3.0 CDI",
+   "Mercedes E-Klasse (W201) 2.0/2.2/3.2 CDI",
+   "Mercedes M-Klasse 3.2 CDI",
+   "Mercedes Sprinter 2.2 CDI",
+   "Mercedes V-Klasse 2.0/2.2 CDI",
+   "Mercedes Vito 2.2 CDI",
+   "Mercedes Vaneo 1.7 CDI"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDESEDC15C6",
+  "ids": [
+   59
+  ],
+  "notes": [],
+  "vehicles": [
+   "Mercedes A-Klasse 1.7 CDI",
+   "Mercedes C-Klasse (W201) 2.2 CDI",
+   "Mercedes C-Klasse (W201) 2.7 CDI",
+   "Mercedes C-Klasse (W203) 2.0 CDI",
+   "Mercedes C-Klasse (W203) 2.2 CDI",
+   "Mercedes C-Klasse (W203) 2.2 CDI",
+   "Mercedes C-Klasse (W203) 2.7 CDI",
+   "Mercedes C-Klasse (W203) 3.2 CDI",
+   "Mercedes CLK(W209) 2.7 CDI",
+   "Mercedes E-Klasse (W210) 2.0 CDI",
+   "Mercedes E-Klasse (W210) 2.2 CDI",
+   "Mercedes E-Klasse (W210) 2.7 CDI",
+   "Mercedes E-Klasse (W210) 3.2 CDI",
+   "Mercedes G-Klasse 2.7 CDI",
+   "Mercedes G-Klasse 4.0 CDI",
+   "Mercedes M-Klasse 2.7 CDI",
+   "Mercedes ML-Klasse 2.7 CDI",
+   "Mercedes ML-Klasse 4.0 CDI",
+   "Mercedes S-Klasse (W280) 3.2 CDI",
+   "Mercedes S-Klasse (W280) 4.0 CDI",
+   "Mercedes Sprinter 2.2 CDI",
+   "Mercedes Sprinter 2.7 CDI",
+   "Mercedes V-Klasse 2.0 CDI",
+   "Mercedes V-Klasse 2.2 CDI",
+   "Mercedes Vito 2.2 CDI"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDES ACTROS BOOT 200",
+  "ids": [
+   142
+  ],
+  "notes": [],
+  "vehicles": [
+   "TEMIC ACTROS  E 1/2/3",
+   "TEMIC ATEGO    E 1/2/3",
+   "TEMIC ECONIC   E 1/2/3",
+   "TEMIC UNIMOG  E 1/2/3"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDES ACTROS BOOT 400",
+  "ids": [
+   155
+  ],
+  "notes": [],
+  "vehicles": [
+   "TEMIC ACTROS  E 4/5",
+   "TEMIC ATEGO   E 4/5",
+   "TEMIC UNIMOG  E 4/5",
+   "TEMIC ECONIC  E 4/5"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDES EDC16+ C31 C32",
+  "ids": [
+   140
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "A-Klasse 1.8 EDC16+ C32",
+   "A-Klasse 2.0 EDC16+ C32",
+   "B-Klasse 1.8 EDC16+ C32",
+   "B-Klasse 2.0 EDC16+ C32"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDES EDC16 C2_4 29BL802CB",
+  "ids": [
+   24
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Mercedes C-Klasse (W201) 2.2 CDI",
+   "Mercedes C-Klasse (W201) 2.7 CDI",
+   "Mercedes C-Klasse (W203) 2.0 CDI",
+   "Mercedes C-Klasse (W203) 2.2 CDI",
+   "Mercedes C-Klasse (W203) 2.2 CDI",
+   "Mercedes C-Klasse (W203) 2.7 CDI",
+   "Mercedes C-Klasse (W203) 3.2 CDI",
+   "Mercedes E-Klasse (W210) 2.0 CDI",
+   "Mercedes E-Klasse (W210) 2.2 CDI",
+   "Mercedes E-Klasse (W210) 2.7 CDI",
+   "Mercedes E-Klasse (W210) 3.2 CDI",
+   "Mercedes G-Klasse 2.7 CDI",
+   "Mercedes G-Klasse 4.0 CDI",
+   "Mercedes M-Klasse 2.7 CDI",
+   "Mercedes ML-Klasse 2.7 CDI",
+   "Mercedes ML-Klasse 4.0 CDI",
+   "Mercedes S-Klasse (W280) 3.2 CDI",
+   "Mercedes S-Klasse (W280) 4.0 CDI",
+   "Mercedes V-Klasse 2.0 CDI",
+   "Mercedes V-Klasse 2.2 CDI",
+   "Mercedes Vito 2.2 CDI"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDES EDC16 C2_7 29BL802CB",
+  "ids": [
+   121
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Mercedes A-Klasse 1.8 CDI",
+   "Mercedes A-Klasse 2.2 CDI",
+   "Mercedes C-Klasse (W201) 2.2 CDI",
+   "Mercedes C-Klasse (W201) 2.7 CDI",
+   "Mercedes C-Klasse (W203) 2.0 CDI",
+   "Mercedes C-Klasse (W203) 2.2 CDI",
+   "Mercedes C-Klasse (W203) 2.2 CDI",
+   "Mercedes C-Klasse (W203) 2.7 CDI",
+   "Mercedes C-Klasse (W203) 3.2 CDI",
+   "Mercedes CLK (W208) 3.2 CDI",
+   "Mercedes E-Klasse (W210) 2.0 CDI",
+   "Mercedes E-Klasse (W210) 2.2 CDI",
+   "Mercedes E-Klasse (W210) 2.7 CDI",
+   "Mercedes E-Klasse (W210) 3.2 CDI",
+   "Mercedes G-Klasse 2.7 CDI",
+   "Mercedes G-Klasse 4.0 CDI",
+   "Mercedes M-Klasse 2.7 CDI",
+   "Mercedes ML-Klasse 2.7 CDI",
+   "Mercedes ML-Klasse 4.0 CDI",
+   "Mercedes S-Klasse (W280) 3.2 CDI",
+   "Mercedes S-Klasse (W280) 4.0 CDI",
+   "Mercedes V-Klasse 2.0 CDI",
+   "Mercedes V-Klasse 2.2 CDI",
+   "Mercedes Vito 2.2 CDI",
+   "Mercedes Viano 2.2 CDI"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDES EDC16 C2_7 29BL802CB",
+  "ids": [
+   123
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Mercedes A-Klasse 1.8 CDI",
+   "Mercedes A-Klasse 2.2 CDI",
+   "Mercedes C-Klasse (W201) 2.2 CDI",
+   "Mercedes C-Klasse (W201) 2.7 CDI",
+   "Mercedes C-Klasse (W203) 2.0 CDI",
+   "Mercedes C-Klasse (W203) 2.2 CDI",
+   "Mercedes C-Klasse (W203) 2.2 CDI",
+   "Mercedes C-Klasse (W203) 2.7 CDI",
+   "Mercedes C-Klasse (W203) 3.2 CDI",
+   "Mercedes CLK (W208) 3.2 CDI",
+   "Mercedes E-Klasse (W210) 2.0 CDI",
+   "Mercedes E-Klasse (W210) 2.2 CDI",
+   "Mercedes E-Klasse (W210) 2.7 CDI",
+   "Mercedes E-Klasse (W210) 3.2 CDI",
+   "Mercedes G-Klasse 2.7 CDI",
+   "Mercedes G-Klasse 4.0 CDI",
+   "Mercedes M-Klasse 2.7 CDI",
+   "Mercedes ML-Klasse 2.7 CDI",
+   "Mercedes ML-Klasse 4.0 CDI",
+   "Mercedes S-Klasse (W280) 3.2 CDI",
+   "Mercedes S-Klasse (W280) 4.0 CDI",
+   "Mercedes V-Klasse 2.0 CDI",
+   "Mercedes V-Klasse 2.2 CDI",
+   "Mercedes Vito 2.2 CDI",
+   "Mercedes Viano 2.2 CDI"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDES EDC16CP31",
+  "ids": [
+   131
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Mercedes E-Klasse (W210) 2.8 CDI",
+   "Mercedes E-Klasse (W210) 3.0 CDI",
+   "Mercedes E-Klasse (W210) 3.2 CDI",
+   "Mercedes G-Klasse 2.8 CDI",
+   "Mercedes ML-Klasse 2.8 CDI",
+   "Mercedes ML-Klasse 3.2 CDI",
+   "Mercedes S-Klasse (W280) 3.0 V6 CDI",
+   "Mercedes S-Klasse (W280) 3.2 CDI"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDESME728",
+  "ids": [
+   70
+  ],
+  "notes": [],
+  "vehicles": [
+   "Mercedes Slk  2.4",
+   "Mercedes Slk  3.2",
+   "Mercedes Slk  5.5 E55 M113",
+   "Mercedes Clk-clk cabrio  2.4",
+   "Mercedes Clk-clk cabrio  3.2",
+   "Mercedes Clk-clk cabrio  5.0",
+   "Mercedes C-Klasse (W201) 1.8",
+   "Mercedes C-Klasse (W203) 2.0",
+   "Mercedes C-Klasse (W201) 2.4",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes C-Klasse (W203) 2.2",
+   "Mercedes C-Klasse (W203) 2.7",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes E-Klasse (W210) 2.4",
+   "Mercedes E-Klasse (W210) 3.2",
+   "Mercedes E-Klasse (W210) 4.3",
+   "Mercedes E-Klasse (W210) 5.0",
+   "Mercedes S-Klasse (W280) 3.2",
+   "Mercedes S-Klasse (W280) 4.3",
+   "Mercedes S-Klasse (W280) 5.0",
+   "Mercedes S-Klasse (W280) 5.5",
+   "Mercedes SL-Klasse (R320) 5.0",
+   "Mercedes SL-Klasse (R320) 5.5",
+   "Mercedes G-Klasse 2.7",
+   "Mercedes G-Klasse 4.0",
+   "Mercedes M-Klasse 2.7",
+   "Mercedes ML-Klasse 2.7",
+   "Mercedes ML-Klasse 4.0"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDESME728AMG",
+  "ids": [
+   77
+  ],
+  "notes": [],
+  "vehicles": [
+   "Mercedes Slk  2.4",
+   "Mercedes Slk  3.2",
+   "Mercedes Slk  5.5 E55 M113",
+   "Mercedes Clk-clk cabrio  2.4",
+   "Mercedes Clk-clk cabrio  3.2",
+   "Mercedes Clk-clk cabrio  5.0",
+   "Mercedes C-Klasse (W201) 1.8",
+   "Mercedes C-Klasse (W203) 2.0",
+   "Mercedes C-Klasse (W201) 2.4",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes C-Klasse (W203) 2.2",
+   "Mercedes C-Klasse (W203) 2.7",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes E-Klasse (W210) 2.4",
+   "Mercedes E-Klasse (W210) 3.2",
+   "Mercedes E-Klasse (W210) 4.3",
+   "Mercedes E-Klasse (W210) 5.0",
+   "Mercedes S-Klasse (W280) 3.2",
+   "Mercedes S-Klasse (W280) 4.3",
+   "Mercedes S-Klasse (W280) 5.0",
+   "Mercedes S-Klasse (W280) 5.5",
+   "Mercedes SL-Klasse (R320) 5.0",
+   "Mercedes SL-Klasse (R320) 5.5",
+   "Mercedes G-Klasse 2.7",
+   "Mercedes G-Klasse 4.0",
+   "Mercedes M-Klasse 2.7",
+   "Mercedes ML-Klasse 2.7",
+   "Mercedes ML-Klasse 4.0"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDESME21",
+  "ids": [
+   78
+  ],
+  "notes": [],
+  "vehicles": [
+   "Mercedes Slk  2.0  200K",
+   "Mercedes Slk  2.3  230K",
+   "Mercedes Slk  2.4",
+   "Mercedes Slk  3.2",
+   "Mercedes Clk (W208) 2.0 200K",
+   "Mercedes Clk (W208) 2.3 230K",
+   "Mercedes Clk-clk cabrio  2.4",
+   "Mercedes Clk-clk cabrio  2.4",
+   "Mercedes Clk-clk cabrio  3.2",
+   "Mercedes Clk-clk cabrio  5.0",
+   "Mercedes C-Klasse (W201) 1.8",
+   "Mercedes C-Klasse (W202) 2.0 200K",
+   "Mercedes C-Klasse (W202) 2.3 230K",
+   "Mercedes C-Klasse (W203) 2.0",
+   "Mercedes C-Klasse (W201) 2.4",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes C-Klasse (W203) 2.2",
+   "Mercedes C-Klasse (W203) 2.7",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes E-Klasse (W210) 2.4",
+   "Mercedes E-Klasse (W210) 3.2",
+   "Mercedes E-Klasse (W210) 4.3",
+   "Mercedes E-Klasse (W210) 5.0",
+   "Mercedes S-Klasse (W280) 3.2",
+   "Mercedes S-Klasse (W280) 4.3",
+   "Mercedes S-Klasse (W280) 5.0",
+   "Mercedes G-Klasse 2.7",
+   "Mercedes G-Klasse 4.0",
+   "Mercedes M-Klasse 2.7",
+   "Mercedes ML-Klasse 2.7",
+   "Mercedes ML-Klasse 4.0"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MERCEDES_SIEMENS_5WK9",
+  "ids": [
+   100
+  ],
+  "notes": [],
+  "vehicles": [
+   "Mercedes Slk  2.4",
+   "Mercedes Slk  3.2",
+   "Mercedes Slk  5.0",
+   "Mercedes Clk-clk cabrio  2.4",
+   "Mercedes Clk-clk cabrio  3.2",
+   "Mercedes Clk-clk cabrio  5.0",
+   "Mercedes C-Klasse (W201) 1.8",
+   "Mercedes C-Klasse (W203) 2.0",
+   "Mercedes C-Klasse (W201) 2.4",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes C-Klasse (W203) 2.2",
+   "Mercedes C-Klasse (W203) 2.7",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes E-Klasse (W210) 2.4",
+   "Mercedes E-Klasse (W210) 3.2",
+   "Mercedes E-Klasse (W210) 4.3",
+   "Mercedes E-Klasse (W210) 5.0",
+   "Mercedes S-Klasse (W280) 3.2",
+   "Mercedes S-Klasse (W280) 4.3",
+   "Mercedes S-Klasse (W280) 5.0",
+   "Mercedes G-Klasse 2.7",
+   "Mercedes G-Klasse 4.0",
+   "Mercedes M-Klasse 2.7",
+   "Mercedes ML-Klasse 2.7",
+   "Mercedes ML-Klasse 4.0"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CMERCEDES_SIEM4LKE_800",
+  "ids": [
+   178
+  ],
+  "notes": [],
+  "vehicles": [
+   "Mercedes Slk  2.4",
+   "Mercedes Slk  3.2",
+   "Mercedes Slk  5.0",
+   "Mercedes Clk-clk cabrio  2.4",
+   "Mercedes Clk-clk cabrio  3.2",
+   "Mercedes Clk-clk cabrio  5.0",
+   "Mercedes C-Klasse (W201) 1.8",
+   "Mercedes C-Klasse (W203) 2.0",
+   "Mercedes C-Klasse (W201) 2.4",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes C-Klasse (W203) 2.2",
+   "Mercedes C-Klasse (W203) 2.7",
+   "Mercedes C-Klasse (W203) 3.2",
+   "Mercedes E-Klasse (W210) 2.4",
+   "Mercedes E-Klasse (W210) 3.2",
+   "Mercedes E-Klasse (W210) 4.3",
+   "Mercedes E-Klasse (W210) 5.0",
+   "Mercedes S-Klasse (W280) 3.2",
+   "Mercedes S-Klasse (W280) 4.3",
+   "Mercedes S-Klasse (W280) 5.0",
+   "Mercedes G-Klasse 2.7",
+   "Mercedes G-Klasse 4.0",
+   "Mercedes M-Klasse 2.7",
+   "Mercedes ML-Klasse 2.7",
+   "Mercedes ML-Klasse 4.0"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "MITSUBISCHIEDC15C2",
+  "ids": [
+   67
+  ],
+  "notes": [],
+  "vehicles": [
+   "Carisma    1.9 hdi",
+   "Space Star 1.9 hdi"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "NISSANEDC15C2",
+  "ids": [
+   62
+  ],
+  "notes": [],
+  "vehicles": [
+   "Nissan Almera Tino 2.0",
+   "Nissan X-Trail 2.2",
+   "NISSAN PRIMASTAR 1.9 DCI",
+   "NISSAN PRIMERA 1.9 DCI",
+   "NISSAN PRIMERA 2.2 DCI",
+   "NISSAN TERRANO 2.7 TDI",
+   "NISSAN INTERSTAR 2.7 TDI"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPEL17DTI16V_1",
+  "ids": [
+   10
+  ],
+  "notes": [],
+  "vehicles": [
+   "Astra F 1.7 16V DTI Delco LVP4 Y17DT E2",
+   "Corsa B 1.7 16V Delco LVP4  Y17DT E2",
+   "Zafira 1.7 16V Delco LVP4  Y17DT E2"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPEL17DTI16V_2",
+  "ids": [
+   12
+  ],
+  "notes": [],
+  "vehicles": [
+   "Astra F 1.7 16V DTI Delco LVP11 Y17DT E3",
+   "Corsa B 1.7 16V Delco LVP11 Y17DT E3",
+   "Zafira 1.7 16V Delco LVP11 Y17DT E3"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPEL17DTI16V_3",
+  "ids": [
+   110
+  ],
+  "notes": [],
+  "vehicles": [
+   "Astra F 1.7 16V DTI Delco LVP11 Y17DT E4",
+   "MERIVA 1.7 16V DTI Delco LVP11 Y17DT E4",
+   "Corsa B 1.7 16V Delco LVP11 Y17DT E4",
+   "Zafira 1.7 16V Delco LVP11 Y17DT E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELME155E4",
+  "ids": [
+   14
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Corsa  1.0/1.2 16V BOSCH ME1.5.5",
+   "Agila 1.0/1.2 16V BOSCH ME1.5.5",
+   "Zafira 2.0 16V BOSCH ME1.5.5",
+   "Meriva 1.0/1.2 16V BOSCH ME1.5.5",
+   "Astra coupe 2.0 16V turbo BOSCH ME1.5.5",
+   "Astra 2.0 16V BOSCH ME1.5.5"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELM155E3",
+  "ids": [
+   15
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Astra G 1.2 16V Bosch M1.5.5",
+   "Corsa B 1.0 12V Bosch M1.5.5",
+   "Corsa B 1.2 16V Bosch M1.5.5",
+   "Corsa C 1.0 12V Bosch M1.5.5",
+   "Corsa C 1.2 16V Bosch M1.5.5"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELEDC15M",
+  "ids": [
+   21
+  ],
+  "notes": [],
+  "vehicles": [
+   "Astra F (4) 1.7 16V DTI Bosch EDC15M",
+   "Astra F (4) 2.0 16V DI Bosch EDC15M",
+   "Astra F (4) 2.2 16V DI Bosch EDC15M",
+   "Astra G 1.7 16V DI Bosch EDC15M",
+   "Astra G 2.0 16V DI Bosch EDC15M",
+   "Astra G 2.2 16V DI Bosch EDC15M",
+   "Frontera 2.2 DTI Bosch EDC15M",
+   "Vectra B 1.7 16V DI Bosch EDC15M",
+   "Vectra B 2.0 16V DI Bosch EDC15M",
+   "Vectra C 2.0 16V DI Bosch EDC15M",
+   "Vectra C 2.0 16V DTI Bosch EDC15M",
+   "Zafira 2.0 16V DI Bosch EDC15M",
+   "Omega 2.0 / 2.2 16V DI Bosch EDC15M",
+   "Saab 93/95 2.2 DTI 16V DI Bosch EDC15M",
+   "Isuzu C MAX 3.0 DTI"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPEL_IAW_MJD",
+  "ids": [
+   104
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Corsa   1.3 IAW MULTIJET",
+   "Agila   1.3 IAW MULTIJET",
+   "Suzuki Ignis 1.3 IAW MULTIJET"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELSIMTEC70",
+  "ids": [
+   29
+  ],
+  "notes": [],
+  "vehicles": [
+   "Astra F (4) 1.8 16V Siemens Simtec70",
+   "Astra F (4) 2.0 16V Siemens Simtec70",
+   "Astra G 1.8 16V Siemens Simtec70",
+   "Astra G 2.0 16V Siemens Simtec70",
+   "Omega B 2.0 16V Siemens Simtec70",
+   "Vectra B 1.8 16V Siemens Simtec70",
+   "Vectra B 2.0 16V Siemens Simtec70",
+   "Vectra C 1.8 16V Siemens Simtec70",
+   "Vectra C 2.0 16V Siemens Simtec70",
+   "Zafira 1.8 16V Siemens Simtec70",
+   "Zafira 2.0 16V Siemens Simtec70"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELDELCO_3",
+  "ids": [
+   30
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "CORSA 1.4 16V Multec 3",
+   "Astra G  1.4 16V Multec 3",
+   "Astra G  1.6 16V Multec 3",
+   "Vectra C 1.4 16V Multec 3",
+   "Vectra C 1.6 16V Multec 3"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELDELCO_2",
+  "ids": [
+   31
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "CORSA  1.4 16V Multec 2",
+   "Astra F  1.4 16V Multec 2",
+   "Astra F  1.6 16V Multec 2",
+   "Vectra B 1.4 16V Multec 2",
+   "Vectra B 1.6 16V Multec 2"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELEDC15C7",
+  "ids": [
+   32
+  ],
+  "notes": [],
+  "vehicles": [
+   "MERIVA 1.7 16V 80 / 100 CV CDTI",
+   "ASTRA G 1.7 16V 80 / 100 CV CDTI"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELDELCO_1",
+  "ids": [
+   35
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "CORSA  1.4 16V Multec 1",
+   "Astra F  1.4 16V Multec 1",
+   "Astra F  1.6 16V Multec 1",
+   "Vectra B 1.4 16V Multec 3",
+   "Vectra B 1.6 16V Multec 3"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELSIMTEC90",
+  "ids": [
+   52
+  ],
+  "notes": [],
+  "vehicles": [
+   "Astra F (4) 1.8 16V Simtec 90 e VDO 71.1",
+   "Astra F (4) 2.0 16V Simtec 90 e VDO 71.1",
+   "Astra G 1.8 16V Simtec 90 e VDO 71.1",
+   "Astra G 2.0 16V Simtec 90 e VDO 71.1",
+   "Omega B 2.0 16V Simtec 90 e VDO 71.1",
+   "Vectra B 1.8 16V Simtec 90 e VDO 71.1",
+   "Vectra B 2.0 16V Simtec 90 e VDO 71.1",
+   "Vectra C 1.8 16V Simtec 90 e VDO 71.1",
+   "Vectra C 2.0 16V Simtec 90 e VDO 71.1",
+   "Zafira 1.8 16V Simtec 90 e VDO 71.1",
+   "Zafira 2.0 16V Simtec 90 e VDO 71.1"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPEL2200DTR",
+  "ids": [
+   71
+  ],
+  "notes": [],
+  "vehicles": [
+   "ASTRA G 2.2 DTI",
+   "MERIVA 2.2 DTI"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "OPELSIMTEC56",
+  "ids": [
+   73
+  ],
+  "notes": [],
+  "vehicles": [
+   "Astra E (4) 1.8 16V Siemens Simtec56",
+   "Astra E (4) 2.0 16V Siemens Simtec56",
+   "Astra E 1.8 16V Siemens Simtec56",
+   "Astra G 2.0 16V Siemens Simtec56",
+   "Omega A 2.0 16V Siemens Simtec56",
+   "Vectra A 1.8 16V Siemens Simtec56",
+   "Vectra A 2.0 16V Siemens Simtec56",
+   "Vectra B 1.8 16V Siemens Simtec56",
+   "Vectra B 2.0 16V Siemens Simtec56",
+   "Zafira 1.8 16V Siemens Simtec56",
+   "Zafira 2.0 16V Siemens Simtec56"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOTEDC15C2",
+  "ids": [
+   19
+  ],
+  "notes": [],
+  "vehicles": [
+   "Ulysse 2.0 JTD 16V Bosch EDC15C2",
+   "Ulysse 2.2 JTD 16V Bosch EDC15C2",
+   "Phedra 2.0 JTD Bosch EDC15C2",
+   "Phedra 2.2 JTD Bosch EDC15C2",
+   "Berlingo 2.0 HDI Bosch EDC15C2",
+   "C5 2.0 HDI Bosch EDC15C2",
+   "C5 2.2 HDI Bosch EDC15C2",
+   "C8 2.0 HDI Bosch EDC15C2",
+   "C8 2.0 HDI Bosch EDC15C2",
+   "Evasion 2.0 HDI Bosch EDC15C2",
+   "Jumper 2.0 HDI Bosch EDC15C2",
+   "Jumper 2.2 HDI Bosch EDC15C2",
+   "Jumper 2.8 HDI Bosch EDC15C7",
+   "Jumpy 2.0 HDI Bosch EDC15C2",
+   "Picasso 2.0 HDI Bosch EDC15C2",
+   "Synergie 2.0 HDI Bosch EDC15C2",
+   "Xantia 2.0 HDI Bosch EDC15C2",
+   "Xsara 2.0 HDI Bosch EDC15C2",
+   "Xsara Picasso 2.0 HDI Bosch EDC15C2",
+   "206 2.0 HDI Bosch EDC15C2",
+   "306 2.0 HDI Bosch EDC15C2",
+   "307 2.0 HDI 110PS Bosch EDC15C2",
+   "406 2.0 HDI Bosch EDC15C2",
+   "406 2.2 HDI Bosch EDC15C2",
+   "607 2.0 HDI Bosch EDC15C2",
+   "607 2.2 HDI Bosch EDC15C2",
+   "807 2.0 HDI Bosch EDC15C2",
+   "807 2.2 HDI Bosch EDC15C2",
+   "Boxer 2.0 HDI Bosch EDC15C2",
+   "Expert 2.0 HDI Bosch EDC15C2",
+   "Partner 2.0 HDI Bosch EDC15C2"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOT SID 881 801 2000cc",
+  "ids": [
+   81
+  ],
+  "notes": [],
+  "vehicles": [
+   "0READ BOOT MODE PIN 28 FLASH TO MASS",
+   "206 2.0 8V HDI 90CV E4",
+   "306 2.0 8V HDI 90CV E4",
+   "307 2.0 8V HDI 90CV E4",
+   "406 2.0 8V HDI 90CV E4",
+   "407 2.0 8V HDI 90CV E4",
+   "XARA 2.0 8V HDI 90CV E4",
+   "XANTIA 2.0 8V HDI 90CV E4",
+   "PICASSO 2.0 8V HDI 90CV E4",
+   "C5 2.0 8V HDI 90CV E4",
+   "BERLINGO 2.0 8V HDI 90CV E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOTSDI 804 1400cc",
+  "ids": [
+   114
+  ],
+  "notes": [],
+  "vehicles": [
+   "0READ BOOT MODE PIN 28 FLASH TO MASS",
+   "106 1,4 8V HDI 70CV E4",
+   "206 1,4 8V HDI 70CV E4",
+   "1007 1,4 8V HDI 70CV E4",
+   "SAXO 1,4 8V HDI 70CV E4",
+   "C2  1,4 8V HDI 70CV E4",
+   "C3  1,4 8V HDI 70CV E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOT SID 803 2000cc 16V 29BL802CB",
+  "ids": [
+   129
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "307 2.0 16V HDI 136CV E3",
+   "407 2.0 16V HDI 136CV E3",
+   "607 2.0 16V HDI 136CV E3"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOT SID 803A 2000cc 16V M58BW016xB",
+  "ids": [
+   146
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "307 2.0 16V HDI 136CV E4",
+   "407 2.0 16V HDI 136CV E4",
+   "607 2.0 16V HDI 136CV E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CPEUGEOTSDI_BOOTMODE400 881/801/804/806 1400cc ,2000CC",
+  "ids": [
+   94
+  ],
+  "notes": [],
+  "vehicles": [
+   "0 0READ & WRITE",
+   "0BOOT MODE PIN 28 FLASH TO MASS",
+   "106 1,4 8V HDI 70CV E4",
+   "1007 1,4 8V HDI 70CV E4",
+   "206 1,4 8V HDI 70CV E4",
+   "206 2.0 8V HDI 90CV E4",
+   "306 2.0 8V HDI 90CV E4",
+   "307 2.0 8V HDI 90CV E4",
+   "406 2.0 8V HDI 90CV E4",
+   "407 2.0 8V HDI 90CV E4",
+   "SAXO 1,4 8V HDI 70CV E4",
+   "C1  1,4 8V HDI 70CV E4",
+   "C2  1,4 8V HDI 70CV E4",
+   "C3  1,4 8V HDI 70CV E4",
+   "XARA 2.0 8V HDI 90CV E4",
+   "XANTIA 2.0 8V HDI 90CV E4",
+   "PICASSO 2.0 8V HDI 90CV E4",
+   "C5 2.0 8V HDI 90CV E4",
+   "BERLINGO 2.0 8V HDI 90CV E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOT_EDC16C3/9  1,4 1,6 16V",
+  "ids": [
+   96
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "206 1,4 16V HDI 90CV E4",
+   "307 1,4 16V HDI 90CV E4",
+   "206 1,6 16V HDI 110CV E4",
+   "307 1,6 16V HDI 110CV E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOT_EDC16C34  1,4 1,6 16V",
+  "ids": [
+   130
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "206 1,4 16V HDI 90CV E4 F.A.P.",
+   "307 1,4 16V HDI 90CV E4 F.A.P.",
+   "206 1,6 16V HDI 110CV E4 F.A.P.",
+   "307 1,6 16V HDI 110CV E4 F.A.P."
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOTME744",
+  "ids": [
+   33
+  ],
+  "notes": [],
+  "vehicles": [
+   "206 1.6 16V E3",
+   "306 1.6 16V E3",
+   "406 2.0 16V E3"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOTME745",
+  "ids": [
+   138
+  ],
+  "notes": [],
+  "vehicles": [
+   "1007 1.6 16V E4",
+   "207 1.6 16V E4",
+   "307 1.6 16V E4",
+   "407 2.0 16V E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOTIAW48P",
+  "ids": [
+   43
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "206 1.6 16V E3",
+   "306 1.6 16V E3",
+   "406 2.0 16V E3",
+   "SAXO 1.6 16V E3"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOTIAW48P2",
+  "ids": [
+   80
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "206 1.6 16V E4",
+   "306 1.6 16V E4",
+   "406 2.0 16V E4",
+   "SAXO 1.6 16V E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOTIAW6LPA01_20",
+  "ids": [
+   82
+  ],
+  "notes": [
+   "CHECKSUM TAB CALCULATED IN WRITING'"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "206 2.0 16V GTI 176 CV"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOTIAW6LPA01_14",
+  "ids": [
+   93
+  ],
+  "notes": [
+   "CHECKSUM TAB CALCULATED IN WRITING'"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "106 1.4 16V GTI 90 CV",
+   "206 1.4 16V GTI 90 CV",
+   "307 2.0 16V 136 CV",
+   "407 2.0 16V 136 CV",
+   "C5  2.0 16V 136 CV",
+   "C6  2.0 16V 136 CV",
+   "C8  2.0 16V 136 CV"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOT_SAGEM2000_14_E3",
+  "ids": [
+   118
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "106 1.2 1.4 1.6 8V E3",
+   "206 1.2 1.4 1.6 8V E3",
+   "306 1.2 1.4 1.6 8V E3"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PEUGEOT_SAGEM2000_14_E4",
+  "ids": [
+   112
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "1007 1.2 1.4 1.6 8V E4",
+   "106   1.2 1.4 1.6 8V E4",
+   "206   1.2 1.4 1.6 8V E4",
+   "307   1.2 1.4 1.6 8V E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PORSCHE996_CC460",
+  "ids": [
+   115
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "996 3,6 ME 5.2 CC460",
+   "BOXTER 2,5 2,7 M 5.2 CC460"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PORSCHE_ME72_400",
+  "ids": [
+   124
+  ],
+  "notes": [],
+  "vehicles": [
+   "996 3,2 3,6 ME 7.2",
+   "BOXTER 3,2 3,6 ME 7.2"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PORSCHE_ME784_800",
+  "ids": [
+   154
+  ],
+  "notes": [],
+  "vehicles": [
+   "996 3,2 3,6 ME 7.8.4",
+   "BOXTER 3,2 3,6 ME 7.8.4",
+   "CARRERA S 3.8",
+   "CARRERA S 4X4 4,5 BITURBO"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "PORSCHE_ME72_400",
+  "ids": [
+   127
+  ],
+  "notes": [],
+  "vehicles": [
+   "CAYENNE 4,5 V8",
+   "CAYENNE S 4,5 V8 BITURBO"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULTEDC15C2",
+  "ids": [
+   26
+  ],
+  "notes": [],
+  "vehicles": [
+   "Opel Vivaro 1.9 16V DI Bosch EDC15C2",
+   "Espace 1.9 dCi Bosch EDC15C2",
+   "Espace 2.2 dCi Bosch EDC15C2",
+   "Kangoo 1.9 dCi Bosch EDC15C2",
+   "Laguna 1.9 dCi Bosch EDC15C2",
+   "Megane 1.9 dCi Bosch EDC15C2",
+   "Scenic 1.9 dCi Bosch EDC15C2",
+   "Scenic 1.9 dTi Bosch EDC15C2",
+   "Trafic 1.9 dCi Bosch EDC15C2",
+   "MASTER 2.2 DCI BOSCH 29F400",
+   "MASTER 2.5 DCI BOSCH 29F400",
+   "MASTER 2.8 DCI BOSCH 29F200",
+   "MEGANE 1.9 DCI BOSCH 29F400"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULT DELPHIJTD",
+  "ids": [
+   28
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "MICRA 1.5 D 65cv DELPHI",
+   "MICRA 1.5 D 82cv DELPHI",
+   "CLIO 1.5 Dci 65cv DELPHI",
+   "CLIO 1.5 Dci 82cv DELPHI",
+   "CLIO 1.5 Dci 101cv DELPHI",
+   "MEGANE II 1.5 Dci 82cv DELPHI",
+   "MEGANE II 1.5 Dci 101cv DELPHI"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULT DELPHIJTD E4",
+  "ids": [
+   98
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "MODUS 1.5 D 65cv DELPHI E4",
+   "CLIO 1.5 Dci 65cv DELPHI E4",
+   "CLIO 1.5 Dci 82cv DELPHI E4",
+   "CLIO 1.5 Dci 101cv DELPHI E4",
+   "MEGANE II 1.5 Dci 82cv DELPHI E4",
+   "MEGANE II 1.5 Dci 101cv DELPHI E4",
+   "MICRA 1.5 D 65cv DELPHI E4",
+   "MICRA 1.5 D 82cv DELPHI E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CRENAULT_DENSO_DH5",
+  "ids": [
+   116
+  ],
+  "notes": [],
+  "vehicles": [
+   "ESPACE V6 3.0 DENDO DH5",
+   "GRAND ESPACE V6 3.0 DENDO DH",
+   "VEL SATIS 05  V6 3.0 DENDO DH5"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULT_EDC16C3",
+  "ids": [
+   117
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Espace 1.9 dCi EDC16 C3",
+   "Espace 2.2 dCi EDC16 C3",
+   "Kangoo 1.9 dCi EDC16 C3",
+   "Laguna 1.9 dCi Bosch EDC16 C3",
+   "Megane 1.9 dCi Bosch EDC16 C3",
+   "Scenic 1.9 dCi Bosch EDC16 C3",
+   "Scenic 1.9 dTi Bosch EDC16 C3",
+   "Trafic 1.9 dCi EDC16 C3"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULT_EDC16CP33",
+  "ids": [
+   171
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Trafic 1.9 dCi EDC16 CP33 E4",
+   "OPEL VIVARO 1.9 EDC16 CP33 E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULTSIRIUS32",
+  "ids": [
+   11
+  ],
+  "notes": [],
+  "vehicles": [
+   "Clio 1.4/1.6/2.0RS L 16v Siris 32",
+   "Megane 1.4/1.6/2.0 L 16v Siris 32",
+   "Scenic 1.4/1.6/2.0 L 16v Siris 32"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULTSIRIUS34",
+  "ids": [
+   107
+  ],
+  "notes": [],
+  "vehicles": [
+   "Clio 14/16  16v",
+   "Megane 14/16  16v",
+   "Scenic 14/16  16v",
+   "Clio RS 2.0 16v 170CV"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULT_IAW5NR",
+  "ids": [
+   105
+  ],
+  "notes": [],
+  "vehicles": [
+   "Clio 12/14  16v",
+   "Clio RS 2.0 16v 160CV",
+   "Megane 12/14  16v",
+   "Scenic 12/14  16v"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "RENAULT_SAGEM3000",
+  "ids": [
+   174
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Clio RS 2.0 16v 196CV",
+   "Megane 2.0 16v",
+   "Megane 2.0 16v TURBO 225CV"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "ROVEREDC15CDDE",
+  "ids": [
+   182
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "DEFENDER TD5 2.5 MENSNNN",
+   "DISCOVERY TD5 2.5 MENSNNN"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "ROVER_MENS_29F200",
+  "ids": [
+   108
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Freelender 2.0 16V MEMS 3",
+   "MG ROVER ZR 140 ZR 160 MEMS 3",
+   "Rover 25 1.4   1.6 16V MEMS 3",
+   "Rover 45 1.6   1.8+D45 16V MEMS 3",
+   "Rover 75 1.6   2.0 16V MEMS 3",
+   "MG CABRIO 1,4  1,6  1,8",
+   "D---------------------------------------------------------------Z",
+   "DEFENDER TD5 2.5 MENSNNN",
+   "DISCOVERY TD5 2.5 MENSNNN"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "ROVER_25_EMS_SIEMENS",
+  "ids": [
+   177
+  ],
+  "notes": [],
+  "vehicles": [
+   "DEFENDER 25 V6 SIEMENS EMS 2000 E4",
+   "FREELANDER 25 V6 SIEMENS EMS 2000 E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "CSSANGYONG_DELPHI_27",
+  "ids": [
+   159
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "REXTON 2.7 DELPHI E4"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "SEATEDC15V",
+  "ids": [
+   56
+  ],
+  "notes": [],
+  "vehicles": [
+   "Alhambra 1.9 TDI VP37 Bosch EDC15V",
+   "Alhambra 1.9 TDI VP37 Bosch EDC15VM",
+   "Alhambra 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15V",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15VM",
+   "Cordoba 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15V",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15VM",
+   "Ibiza 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Leon 1.9 TDI VP37 Bosch EDC15V",
+   "Leon 1.9 TDI VP37 Bosch EDC15VM",
+   "Leon 1.9 TDI VP37 Bosch EDC15VM-1M",
+   "Toledo 1.9 TDI VP37 Bosch EDC15V",
+   "Toledo 1.9 TDI VP37 Bosch EDC15VM",
+   "Toledo 1.9 TDI VP37 Bosch EDC15VM-1M"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "SMARTE2E3",
+  "ids": [
+   46
+  ],
+  "notes": [],
+  "vehicles": [
+   "MCC Smart 600/700 Bosch MEG1.1"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "SMARTEDC15C",
+  "ids": [
+   47
+  ],
+  "notes": [],
+  "vehicles": [
+   "MCC Smart CDI 0.9 CDI EDG15C5"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "SMARTEDC16C31",
+  "ids": [
+   134
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "Smart For Four 1.5 CDI EDC16+C31",
+   "Colt 1.5 DI-D"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "TOYOTAEDC15C9",
+  "ids": [
+   57
+  ],
+  "notes": [],
+  "vehicles": [
+   "Yaris 1.4 D4D 75cv",
+   "Yaris verso 1.4 D4D 75cv"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "VOLVOV40EDC15C3",
+  "ids": [
+   64
+  ],
+  "notes": [],
+  "vehicles": [
+   "Volvo V40 2.0 TDI"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "VOLVOD5EDC15C3",
+  "ids": [
+   92
+  ],
+  "notes": [],
+  "vehicles": [
+   "V70 2.5 5C",
+   "S60 2.5 5C",
+   "XC70 2.5 5C"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "VOLVOEDC16CP31_6",
+  "ids": [
+   170
+  ],
+  "notes": [
+   "CHECKSUM CALCULATED IN WRITING '"
+  ],
+  "vehicles": [
+   "0----------------------------------------------------------------0",
+   "S40 2.5 5C E4 180CV",
+   "V40 2.5 5C E4 180CV",
+   "V50 2.5 5C E4 180CV",
+   "V70 2.5 5C E4 180CV",
+   "S60 2.5 5C E4 180CV",
+   "XC70 2.5 5C E4 180CV",
+   "XC90 2.5 5C E4 180CV"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ },
+ {
+  "name": "VWEDC15P",
+  "ids": [
+   27
+  ],
+  "notes": [],
+  "vehicles": [
+   "A2 1.4 TDI  80CV",
+   "A3 1.9 TDI 101CV",
+   "A3 1.9 TDI 130CV",
+   "A4 1.9 TDI 101CV",
+   "A4 1.9 TDI 115CV",
+   "A4 1.9 TDI 130CV",
+   "A6 1.9 TDI 101CV",
+   "A6 1.9 TDI 130CV"
+  ],
+  "src": "auto2.dll",
+  "chk_present": false
+ }
+]

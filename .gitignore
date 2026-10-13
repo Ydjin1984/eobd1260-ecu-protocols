@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.i64
+*.idb
+*.log
+.req.json
+resp*.json
+ops.json
