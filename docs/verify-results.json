@@ -1,0 +1,302 @@
+[
+ {
+  "claim": "файл EOBD1260.exe   размер 4455936",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "файл winmap.dll     размер 724992",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "файл Gcheck.dll     размер 2351104",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "файл multiROM.dll   размер 122880",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "файл FTD2XX.dll     размер 81920",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "файл auto.dll       размер 43327",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "файл auto2.dll      размер 43323",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "файл k.dat          размер 48",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "файл apertura.dat   размер 1064",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "chk/ — 148 файлов",
+  "ok": true,
+  "detail": "actual=148"
+ },
+ {
+  "claim": "auto.dll — не PE (не начинается с MZ), текст",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "auto2.dll — не PE (не начинается с MZ), текст",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "ftd2xx.dll — ровно 13 функций",
+  "ok": true,
+  "detail": "actual=13"
+ },
+ {
+  "claim": "ftd2xx.dll — состав совпадает со списком",
+  "ok": true,
+  "detail": "diff []"
+ },
+ {
+  "claim": "FT_SetBitMode отсутствует",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "7 секций с ожидаемыми базами/счётчиками/длинами",
+  "ok": true,
+  "detail": "exp=[('#swap', 0, 16, 8), ('#siemens1', 0, 24, 8), ('#siemens2', 0, 6, 8), ('#boschme7', 0, 1, 8), ('#EDC16', 24576, 4, 8), ('#EDC16', 0, 3, 5), ('#ME9', 0, 1, 8)]"
+ },
+ {
+  "claim": "k.dat — 5 hex-значений (накопленные хеши)",
+  "ok": true,
+  "detail": "['4911E56E', '5DEB6CDF', '6EAC6390', '3FD5318B', '22069E64']"
+ },
+ {
+  "claim": "строка HASP vendor-строка в winmap.dll",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "строка smartchk.exe (анти-отладка)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "строка procdump.exe",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "строка pdumpnt.exe",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "строка td32.exe",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "строка IsDebuggerPresent",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "строка экспорт HaspDecrypt (Gcheck.dll)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "строка экспорт HaspEncrypt (Gcheck.dll)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "строка classic_key_info в winmap.dll",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "строка hasp_login в winmap.dll",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": ".protect: ~1.46 МБ, энтропия ~8.0",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "байты 0–6 одинаковы = 44 8B C3 D1 AD 8D 4C",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "байт 7 в 0x92..0x9B",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "ноль байтов 0x00",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "имена chk-файлов не встречаются в бинарях",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "строка '.chk' отсутствует в EXE",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "XOR 0x1C: 16-байтовый лог даёт кадр KWP2000 82 12 F1 10 85 1A + 0xFF padding",
+  "ok": true,
+  "detail": "82 12 f1 10 85 1a ff ff ff ff ff ff ff ff ff ff"
+ },
+ {
+  "claim": "XOR 0x1C: VAG-лог даёт 82 12 F3 10 85 1C и тексты идентификации",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "заявление «энтропия 7.95» не воспроизводится; максимум 8.000",
+  "ok": true,
+  "detail": "см. VERIFICATION.md §gal"
+ },
+ {
+  "claim": "текстовые логи (6.2..7.2) и один near-uniform (8.000) — два класса",
+  "ok": true,
+  "detail": "['6.255', '6.757', '7.153', '7.165', '8.000']"
+ },
+ {
+  "claim": "320 записей профилей (160+160)",
+  "ok": true,
+  "detail": "actual=320"
+ },
+ {
+  "claim": "каждое имя профиля из raw сопоставлено протоколу с тем же id",
+  "ok": false,
+  "detail": "orphans=['BMWMINID', 'SEATEDC15V', 'VWEDC15P']"
+ },
+ {
+  "claim": "id=0 VMT=0x00621174 профиль BMW330D",
+  "ok": true,
+  "detail": "db: vmt=0x00621174 profs=['BMW330D', 'BMW330D']"
+ },
+ {
+  "claim": "id=1 VMT=0x00621510 профиль BMWMSS52M3E46",
+  "ok": true,
+  "detail": "db: vmt=0x00621510 profs=['BMWMSS52M3E46', 'BMWMSS52M3E46']"
+ },
+ {
+  "claim": "id=2 VMT=0x006214BC профиль BMWMSS50M3E36",
+  "ok": true,
+  "detail": "db: vmt=0x006214BC profs=['BMWMSS50M3E36', 'BMWMSS50M3E36']"
+ },
+ {
+  "claim": "id=11 VMT=0x00623B48 профиль RENAULTSIRIUS32",
+  "ok": true,
+  "detail": "db: vmt=0x00623B48 profs=['RENAULTSIRIUS32', 'RENAULTSIRIUS32']"
+ },
+ {
+  "claim": "id=16 VMT=0x00621FA8 профиль FIATME73H4KWP2000",
+  "ok": true,
+  "detail": "db: vmt=0x00621FA8 profs=['FIATME73H4KWP2000', 'FIATME73H4KWP2000']"
+ },
+ {
+  "claim": "178 протоколов",
+  "ok": true,
+  "detail": "actual=178"
+ },
+ {
+  "claim": "id в 0..182",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "177/178 с полным набором 7 примитивов (id=182 — fallback)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "VMT всех 177 классов в .rdata 0x6206FC..0x62423C",
+  "ok": true,
+  "detail": "min=0x620764 max=0x6241f0"
+ },
+ {
+  "claim": "VMT id=182 вне диапазона (fallback-ветка)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "911 функций с кадрами",
+  "ok": true,
+  "detail": "actual=911"
+ },
+ {
+  "claim": "кадров: 2913 уникальных (в 911 функциях) / 3066 в сумме по протоколам",
+  "ok": true,
+  "detail": "uniq=2913 sum(frame_count)=3066"
+ },
+ {
+  "claim": "169 протоколов с распознанными кадрами",
+  "ok": true,
+  "detail": "actual=169"
+ },
+ {
+  "claim": "len(template)==len и known==число констант во всех кадрах",
+  "ok": true,
+  "detail": "len_viol=0 known_viol=0"
+ },
+ {
+  "claim": "id=0 seed-key: 27 01 (RequestSeed)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "id=0 seed-key: 27 02 42 4D 57 17 (ключ 'BMW')",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "id=0 close-write: B8 12 F1 03 30 EB 01 82",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "id=0 erase: 09 31 02 08 ... 06",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "id=16 init: 02 1A 98 00 (подтверждено псевдокодом sub_49B700)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "FINDINGS-пример 'id=16 → 82 12 F1 10 85 1A' НЕ подтверждён: у id=16 такого кадра нет",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "82 12 F1 10 85 1A ∈ {19,26,49,59,61,67,74,75} (дизельные EDC15)",
+  "ok": true,
+  "detail": ""
+ }
+]
