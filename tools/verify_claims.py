@@ -4,12 +4,7 @@ Re-derives every checkable statement from FINDINGS.md / HANDOFF.md directly
 from the shipped artifacts (binaries, data files, protocol database) without
 reusing the original analysis scripts.  Prints PASS/FAIL per claim.
 
-Usage:  python tools/verify_claims.py <каталог с распакованным вендорским пакетом>
-
-Проверяет утверждения docs/FINDINGS.md по сырым артефактам пакета
-(EOBD1260.exe, winmap.dll, Gcheck.dll, auto*.dll, chk/, EOBD2_LOG/, k.dat,
-apertura.dat) и по базе протоколов (05-spec/ или spec/ рядом с пакетом).
-Вендорские файлы в репозиторий не входят - распакуйте оригинальный пакет.
+Run:  python work/verify/verify_claims.py
 """
 
 from __future__ import annotations
@@ -21,17 +16,8 @@ import re
 import struct
 import sys
 
-PROJ = os.path.abspath(sys.argv[1]) if len(sys.argv) > 1 else os.getcwd()
-
-
-def _db_path(root):
-    """Locate protocols-database.json across the layouts this code ships in."""
-    for rel in ("05-spec/protocols-database.json", "spec/protocols-database.json",
-                "protocols-database.json"):
-        p = os.path.join(root, rel)
-        if os.path.isfile(p):
-            return p
-    return os.path.join(root, "protocols-database.json")
+PROJ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ORIG = r"C:\eobd-re\orig"
 
 RESULTS = []
 
@@ -206,9 +192,7 @@ exe = open(os.path.join(PROJ, "EOBD1260.exe"), "rb").read()
 winmap = open(os.path.join(PROJ, "winmap.dll"), "rb").read()
 gc = open(os.path.join(PROJ, "Gcheck.dll"), "rb").read()
 for probe, blob, label in [
-        # Полная vendor-строка HASP намеренно не публикуется; проверяем её
-        # первые 4 байта, которые видны в публичной документации.
-        (b"qkBr", winmap, "HASP vendor-строка (префикс) в winmap.dll"),
+        (b"qkBr", winmap, "HASP vendor-строка в winmap.dll"),
         (b"smartchk.exe", exe, "smartchk.exe (анти-отладка)"),
         (b"procdump.exe", exe, "procdump.exe"), (b"pdumpnt.exe", exe, "pdumpnt.exe"),
         (b"td32.exe", exe, "td32.exe"), (b"IsDebuggerPresent", exe, "IsDebuggerPresent"),
@@ -268,7 +252,7 @@ check("текстовые логи (6.2..7.2) и один near-uniform (%.3f) �
 print("\n--- профили ЭБУ: raw auto.dll/auto2.dll vs база ---")
 recs = parse_auto(os.path.join(PROJ, "auto.dll")) + parse_auto(os.path.join(PROJ, "auto2.dll"))
 check("320 записей профилей (160+160)", len(recs) == 320, "actual=%d" % len(recs))
-db = json.load(open(_db_path(PROJ), encoding="utf-8"))
+db = json.load(open(os.path.join(PROJ, "05-spec", "protocols-database.json"), encoding="utf-8"))
 byid = {p["protocol_id"]: p for p in db["protocols"]}
 rawname = {}
 for r in recs:
@@ -311,11 +295,11 @@ check("VMT всех 177 классов в .rdata 0x6206FC..0x62423C",
       all(0x6206FC <= v <= 0x62423C for v in vmts), "min=%#x max=%#x" % (min(vmts), max(vmts)))
 check("VMT id=182 вне диапазона (fallback-ветка)", int(byid[182]["vmt"], 16) == 0x6202F4)
 funcs_with_frames = {k: v for k, v in db["functions"].items() if v.get("frames")}
-check("911 функций с кадрами", len(funcs_with_frames) == 911, "actual=%d" % len(funcs_with_frames))
+check("956 функций с кадрами", len(funcs_with_frames) == 956, "actual=%d" % len(funcs_with_frames))
 uniq_frames = sum(len(v["frames"]) for v in funcs_with_frames.values())
 sum_pc = sum(p["frame_count"] for p in db["protocols"])
-check("кадров: 2913 уникальных (в 911 функциях) / 3066 в сумме по протоколам",
-      uniq_frames == 2913 and sum_pc == 3066,
+check("кадров: 3126 уникальных (в 956 функциях) / 3257 в сумме по протоколам",
+      uniq_frames == 3126 and sum_pc == 3257,
       "uniq=%d sum(frame_count)=%d" % (uniq_frames, sum_pc))
 withfr = [p for p in db["protocols"] if p["frame_count"] > 0]
 check("169 протоколов с распознанными кадрами", len(withfr) == 169, "actual=%d" % len(withfr))
@@ -324,6 +308,10 @@ bad_known = sum(1 for v in funcs_with_frames.values() for fr in v["frames"]
                 if fr["known"] != sum(1 for b in fr["bytes"] if b is not None))
 check("len(template)==len и known==число констант во всех кадрах", bad_len == 0 and bad_known == 0,
       "len_viol=%d known_viol=%d" % (bad_len, bad_known))
+push_len = sum(1 for v in funcs_with_frames.values() for fr in v["frames"]
+               if fr.get("len_src") == "push")
+check("длина кадров из push-аргумента (len_src=push) у >95%% кадров",
+      push_len > 0.95 * uniq_frames, "push=%d of %d" % (push_len, uniq_frames))
 refs = set()
 for p in db["protocols"]:
     for pr in p["primitives"]:
@@ -372,15 +360,75 @@ attributed = sorted(p["protocol_id"] for p in db["protocols"]
                     if has_subseq(frames_of(p["protocol_id"]), [0x82, 0x12, 0xF1, 0x10, 0x85, 0x1A],
                                   strict=True))
 info("82 12 F1 10 85 1A принадлежит протоколам", str(attributed))
-check("82 12 F1 10 85 1A ∈ {19,26,49,59,61,67,74,75} (дизельные EDC15)",
-      set(attributed) == {19, 26, 49, 59, 61, 67, 74, 75})
+check("82 12 F1 10 85 1A: надмножество {19,26,49,59,61,67,74,75} (дизельные EDC15)",
+      {19, 26, 49, 59, 61, 67, 74, 75} <= set(attributed))
+check("82 12 F1 10 85 1A: полный набор 12 протоколов (v2 дополнил 62/64/72/163; "
+      "для id=62 кадр подтверждён в sub_4E3090)",
+      set(attributed) == {19, 26, 49, 59, 61, 62, 64, 67, 72, 74, 75, 163},
+      "actual=%s" % attributed)
+
+print("\n--- AUDIT-2 §2: кадры id=0 после пересборки экстрактором v2 (exact) ---")
+
+
+def has_exact(frames, pat):
+    """strict all-constant byte-identical frame of the same length"""
+    for f in frames:
+        if f["len"] == len(pat) and all(b is not None and b == p
+                                         for b, p in zip(f["bytes"], pat)):
+            return True
+    return False
+
+
+check("erase: 8-байтовый кадр восстановлен (был потерян)",
+      has_exact(f0, [0xB8, 0x12, 0xF1, 0x03, 0x30, 0xEB, 0x01, 0x82]))
+check("erase: ветвь 0F/68 присутствует (не подменена дубликатом)",
+      has_exact(f0, [0xB8, 0x12, 0xF1, 0x09, 0x31, 0x02, 0x0F, 0x00, 0x00,
+                     0x06, 0x00, 0x00, 0x00, 0x68]))
+check("erase: ветвь 08/6F присутствует",
+      has_exact(f0, [0xB8, 0x12, 0xF1, 0x09, 0x31, 0x02, 0x08, 0x00, 0x00,
+                     0x06, 0x00, 0x00, 0x00, 0x6F]))
+check("write-block: байт 5 = 0F, а не 68 (слияние ветвей устранено)",
+      has_exact(f0, [0xB8, 0x12, 0xF1, 0x09, 0x34, 0x0F, 0x00, 0x00, 0x06,
+                     0x00, 0x00, 0xC0, 0x00, 0xAF]))
+check("write-block: ADDR-цикл — len=14 из push, байты адреса рантайм + варианты",
+      any(f["len"] == 14 and f["len_src"] == "push"
+          and f["bytes"][:5] == [0xB8, 0x12, 0xF1, 0x09, 0x34]
+          and f["bytes"][5] is None and f["variants"] for f in frames_of(0)))
+cw = db["functions"].get("sub_43EC50", {}).get("frames", [])
+check("close-write: ровно 8 байт (было len=17)",
+      any(f["len"] == 8 and f["bytes"] == [0xB8, 0x12, 0xF1, 0x03, 0x30,
+                                           0xEB, 0x01, 0x82] for f in cw))
+check("нет кадров len<=0",
+      all(f["len"] > 0 for v in funcs_with_frames.values() for f in v["frames"]))
+
+print("\n--- реплика: запрет live для кадров без подтверждённой длины ---")
+try:
+    import importlib.util
+    src_dir = os.path.join(PROJ, "10-replica", "src")
+    if src_dir not in sys.path:
+        sys.path.insert(0, src_dir)
+    spec = importlib.util.spec_from_file_location(
+        "replica_loader", os.path.join(src_dir, "loader.py"))
+    rl = importlib.util.module_from_spec(spec)
+    sys.modules["replica_loader"] = rl  # dataclasses needs the module registered
+    spec.loader.exec_module(rl)
+    f_push = rl.Frame(0, 1, [0xAA], 1, len_src="push")
+    f_ext = rl.Frame(1, 1, [0xAA], 1, len_src="extent")
+    check("Frame.len_confirmed: push=True, extent=False",
+          f_push.len_confirmed and not f_ext.len_confirmed)
+    cli = rl.KLineClient(None, verbose=False)
+    prim = rl.Primitive(12, "erase", "unittest", 1, [f_ext])
+    out = cli.run_primitive(prim, dry_run=False)  # live path must refuse
+    check("run_primitive(live) отказывает кадру len_src=extent", out == [])
+except Exception as exc:
+    check("реплика: защита неподтверждённых кадров", False, repr(exc))
 
 fails = [r for r in RESULTS if not r["ok"]]
 print("\n" + "=" * 78)
 print("ИТОГО: %d проверок, PASS=%d, FAIL=%d" % (len(RESULTS), len(RESULTS) - len(fails), len(fails)))
 for r in fails:
     print("  FAIL: %s | %s" % (r["claim"], r["detail"]))
-out = os.path.join(os.getcwd(), "verify-results.json")
+out = os.path.join(PROJ, "work", "verify", "verify-results.json")
 json.dump(RESULTS, open(out, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
 print("результаты: %s" % out)
 sys.exit(1 if fails else 0)

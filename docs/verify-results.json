@@ -245,14 +245,14 @@
   "detail": ""
  },
  {
-  "claim": "911 функций с кадрами",
+  "claim": "956 функций с кадрами",
   "ok": true,
-  "detail": "actual=911"
+  "detail": "actual=956"
  },
  {
-  "claim": "кадров: 2913 уникальных (в 911 функциях) / 3066 в сумме по протоколам",
+  "claim": "кадров: 3126 уникальных (в 956 функциях) / 3257 в сумме по протоколам",
   "ok": true,
-  "detail": "uniq=2913 sum(frame_count)=3066"
+  "detail": "uniq=3126 sum(frame_count)=3257"
  },
  {
   "claim": "169 протоколов с распознанными кадрами",
@@ -263,6 +263,11 @@
   "claim": "len(template)==len и known==число констант во всех кадрах",
   "ok": true,
   "detail": "len_viol=0 known_viol=0"
+ },
+ {
+  "claim": "длина кадров из push-аргумента (len_src=push) у >95%% кадров",
+  "ok": true,
+  "detail": "push=3110 of 3126"
  },
  {
   "claim": "id=0 seed-key: 27 01 (RequestSeed)",
@@ -295,7 +300,57 @@
   "detail": ""
  },
  {
-  "claim": "82 12 F1 10 85 1A ∈ {19,26,49,59,61,67,74,75} (дизельные EDC15)",
+  "claim": "82 12 F1 10 85 1A: надмножество {19,26,49,59,61,67,74,75} (дизельные EDC15)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "82 12 F1 10 85 1A: полный набор 12 протоколов (v2 дополнил 62/64/72/163; для id=62 кадр подтверждён в sub_4E3090)",
+  "ok": true,
+  "detail": "actual=[19, 26, 49, 59, 61, 62, 64, 67, 72, 74, 75, 163]"
+ },
+ {
+  "claim": "erase: 8-байтовый кадр восстановлен (был потерян)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "erase: ветвь 0F/68 присутствует (не подменена дубликатом)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "erase: ветвь 08/6F присутствует",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "write-block: байт 5 = 0F, а не 68 (слияние ветвей устранено)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "write-block: ADDR-цикл — len=14 из push, байты адреса рантайм + варианты",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "close-write: ровно 8 байт (было len=17)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "нет кадров len<=0",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "Frame.len_confirmed: push=True, extent=False",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "claim": "run_primitive(live) отказывает кадру len_src=extent",
   "ok": true,
   "detail": ""
  }

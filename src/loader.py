@@ -65,6 +65,15 @@ class Frame:
     length: int
     template: list  # ints, or None where the original used a runtime value
     known: int
+    len_src: str = "extent"   # "push" = length taken from the sent argument
+    variants: dict = field(default_factory=dict)
+
+    @property
+    def len_confirmed(self) -> bool:
+        """True when the frame length comes from the `push imm` before the
+        transport call (extractor v2).  Frames extracted with the write-extent
+        fallback may be truncated and must not be transmitted blindly."""
+        return self.len_src == "push"
 
     def render(self, **values) -> bytes:
         """Fill the runtime slots.
@@ -137,7 +146,9 @@ class ProtocolDatabase:
 
     @staticmethod
     def _frame(i, f):
-        return Frame(f["send_index"], f["len"], f["bytes"], f["known"])
+        return Frame(f["send_index"], f["len"], f["bytes"], f["known"],
+                     len_src=f.get("len_src", "extent"),
+                     variants=f.get("variants") or {})
 
     def get(self, protocol_id: int) -> Protocol:
         return self.protocols[protocol_id]
@@ -202,14 +213,25 @@ class KLineClient:
             print("  %s %s" % (direction, " ".join("%02X" % b for b in data)))
 
     # -- protocol driven helpers -------------------------------------------
-    def run_primitive(self, prim: Primitive, wait_ms: int = 200, dry_run: bool = True):
+    def run_primitive(self, prim: Primitive, wait_ms: int = 200, dry_run: bool = True,
+                      allow_unconfirmed: bool = False):
         """Send every frame of a protocol step in order.
 
         `dry_run` prints the traffic instead of driving the cable, which is the
         sane default while a protocol has not been verified on a bench ECU.
+
+        Frames whose length was not taken from the original `push imm` (the
+        extractor had to fall back to the write extent) are refused for live
+        transmission unless `allow_unconfirmed` is set: a truncated frame can
+        silently put an ECU into an undefined state (AUDIT-2 §3).
         """
         out = []
         for fr in prim.frames:
+            if not dry_run and not fr.len_confirmed and not allow_unconfirmed:
+                print("  [refused] frame %d: length %d not confirmed "
+                      "(len_src=%s); pass allow_unconfirmed to override"
+                      % (fr.index, fr.length, fr.len_src))
+                continue
             try:
                 raw = fr.render()
             except ValueError:
@@ -219,7 +241,9 @@ class KLineClient:
                 continue
             if dry_run:
                 if self.verbose:
-                    print("  [dry] would send %s" % " ".join("%02X" % b for b in raw))
+                    print("  [dry] would send %s%s"
+                          % (" ".join("%02X" % b for b in raw),
+                             "" if fr.len_confirmed else "   (len unconfirmed!)"))
                 out.append((raw, b""))
                 continue
             resp = self.send(raw, wait_ms)
@@ -246,6 +270,9 @@ def _main():
     sp.add_argument("--serial", help="FTDI serial number")
     sp.add_argument("--baud", type=int, default=10400)
     sp.add_argument("--live", action="store_true", help="actually transmit")
+    sp.add_argument("--allow-unconfirmed", action="store_true",
+                    help="permit live frames whose length was not confirmed "
+                         "by the extractor (see AUDIT-2 §3)")
 
     args = ap.parse_args()
 
@@ -271,8 +298,12 @@ def _main():
         for prim in p.primitives:
             print("\n%s  (%s, VMT+%d)" % (prim.role, prim.function, prim.offset))
             for fr in prim.frames:
-                print("   frame %-2d len=%-3d known=%-3d  %s"
-                      % (fr.index, fr.length, fr.known, fr.describe()))
+                print("   frame %-2d len=%-3d known=%-3d %-6s  %s"
+                      % (fr.index, fr.length, fr.known,
+                         fr.len_src, fr.describe()))
+                if fr.variants and fr.known != fr.length:
+                    print("            runtime variants: %s"
+                          % {k: v for k, v in sorted(fr.variants.items())})
         return
 
     if args.cmd == "probe":
@@ -283,13 +314,24 @@ def _main():
                   % (args.id, args.step, [x.role for x in p.primitives]))
             return
         if args.live:
+            unconf = [fr for fr in prim.frames if not fr.len_confirmed]
+            if unconf and not args.allow_unconfirmed:
+                print("refusing --live: %d frame(s) without a confirmed length"
+                      % len(unconf))
+                for fr in unconf:
+                    print("   frame %-2d len=%-4d len_src=%s"
+                          % (fr.index, fr.length, fr.len_src))
+                print("A frame extracted from the write extent may be truncated;"
+                      " pass --allow-unconfirmed to override (AUDIT-2 §3).")
+                return
             dev = FtdiDevice().open(serial=args.serial)
             cli = KLineClient(dev, baud=args.baud)
             cli.configure()
         else:
             cli = KLineClient(None)
             print("(dry run - pass --live to transmit)")
-        cli.run_primitive(prim, dry_run=not args.live)
+        cli.run_primitive(prim, dry_run=not args.live,
+                          allow_unconfirmed=args.allow_unconfirmed)
         return
 
 
